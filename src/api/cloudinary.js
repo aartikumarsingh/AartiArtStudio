@@ -1,5 +1,20 @@
 // Yeh tumhari saari images ka data hai - direct load, no cache
 export const IMAGES = [
+     {
+    "public_id": "Modern",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/f_auto,q_auto/IMG_20240406_173546",
+    "title": "Modern",
+    "category": "Medium-Acrylic",
+    "price": 5000,
+    "originalPrice": 8999,
+    "sku": "SKU# ",
+    "year": "2025",
+    "size": "Customized",
+    "description": "Medium-Acrylic on canvas",
+    "medium": "Acrylic on Canvas",
+    "isSold": false
+    },
+    
     {
     "public_id": "Krishna",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/v1778963108/IMG-20260516-WA0002_d2gw3z.jpg",
