@@ -14,7 +14,6 @@ export const IMAGES = [
     "medium": "Acrylic on Canvas",
     "isSold": false
     },
-    
     {
     "public_id": "Krishna",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/v1778963108/IMG-20260516-WA0002_d2gw3z.jpg",
