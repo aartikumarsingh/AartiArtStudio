@@ -111,7 +111,7 @@ export default function Disclaimer() {
             </p>
             <div className="bg-white/5 p-4 rounded-lg">
               <p className="font-semibold">AARTI ART STUDIO</p>
-              <p>C-807, Mayflower grand, Nacharam - Mallapur, Hyderabad- 500076</p>
+              <p>Gulmohar Residency, Krishna Nagar, Near NFC, Moula Ali, Hyderabad- 500040</p>
               <p>Email: aartikumarsingh555@gmail.com</p>
               <p>Phone: +91 80195 74565</p>
             </div>
