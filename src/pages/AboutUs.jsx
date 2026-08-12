@@ -37,7 +37,7 @@ export default function About() {
                   <div className="flex items-start gap-3">
                     <MapPin size={18} className="text-[#E14749] shrink-0 mt-1" />
                     <p className="font-poppins text-sm text-gray-600">
-                      H-406, Gulmohar Residency, <br />
+                      Gulmohar Residency, <br />
                       Krishna Nagar, Beside NFC, Moula Ali,<br />
                       Hyderabad - 500040
                     </p>
