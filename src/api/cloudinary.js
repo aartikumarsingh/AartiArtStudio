@@ -1,18 +1,18 @@
 // Yeh tumhari saari images ka data hai - direct load, no cache
 export const IMAGES = [
     {
-    "public_id": "Krishana",
+    "public_id": "Krishna",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/v1778963108/IMG-20260516-WA0002_d2gw3z.jpg",
-    "title": "Krishana",
+    "title": "Krishna",
     "category": "Medium-Acrylic",
     "price": 15000,
     "originalPrice": 18999,
     "sku": "SKU# ",
-    "year": "",
+    "year": "2026",
     "size": "Customized",
     "description": "Medium-Acrylic on Stretched canvas",
     "medium": "Acrylic on Canvas",
-    "isSold": false
+    "isSold": true
     },
     {
     "public_id": "Wild Flower",
