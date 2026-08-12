@@ -18,7 +18,7 @@ export default function About() {
         <div className="container-custom max-w-4xl">
           <div className="prose prose-lg mx-auto">
             <p className="font-poppins text-gray-700 leading-relaxed mb-6">
-              AARTI ART STUDIO was founded in 2014 by Aarti Kumar Singh, a passionate artist 
+              AARTI ART STUDIO was founded in 2016 by Aarti Kumar Singh, a passionate artist 
               with a vision to bring beautiful, original artwork to collectors and art lovers. 
               Based in Hyderabad, our studio specializes in creating soulful paintings that 
               blend traditional techniques with contemporary expressions.
@@ -37,9 +37,9 @@ export default function About() {
                   <div className="flex items-start gap-3">
                     <MapPin size={18} className="text-[#E14749] shrink-0 mt-1" />
                     <p className="font-poppins text-sm text-gray-600">
-                      C-807, Mayflower Grand<br />
-                      Nacharam - Mallapur,<br />
-                      Hyderabad - 500076
+                      H-406, Gulmohar Residency, <br />
+                      Krishna Nagar, Beside NFC, Moula Ali,<br />
+                      Hyderabad - 500040
                     </p>
                   </div>
                   <div className="flex items-center gap-3">
