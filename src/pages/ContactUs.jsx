@@ -115,9 +115,9 @@ export default function ContactUs() {
                   <div>
                     <h3 className="font-['Poppins'] font-semibold text-white mb-1">Studio Address</h3>
                     <p className="text-white/80">
-                      C-807, Mayflower grand,<br />
-                      Nacharam - Mallapur,<br />
-                      Hyderabad - 500076
+                      Gulmohar Residency,<br />
+                      Krishna Nagar, Moula Ali,<br />
+                      Hyderabad - 500040, Telangana
                     </p>
                   </div>
                 </div>
