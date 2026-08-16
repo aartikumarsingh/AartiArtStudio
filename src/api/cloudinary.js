@@ -43,16 +43,16 @@ export const IMAGES = [
     "isSold": false
     },
     {
-    "public_id": "Sunset_Beach",
+    "public_id": "Acrytlic Painting",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/q_auto/f_auto/v1775055027/IMG-20260401-WA0007_mxrpbp.jpg",
-    "title": "Autumn Landscape",
-    "category": "Medium-Acrylic",
-    "price": 1999,
-    "originalPrice": 1999,
+    "title": "Glowing Lantern Amidst Autumn Foliage",
+    "category": "Still Painting",
+    "price": 2399,
+    "originalPrice": 2999,
     "sku": "SKU# ",
-    "year": 2024,
+    "year": 2026,
     "size": "16 x 20 inches",
-    "description": "Medium-Acrylic on Stretched canvas",
+    "description": "Handmade RED Lantern Painting. Acrylic painting featuring a vibrant glowing Lantern amidst autumn foliage",
     "medium": "Acrylic on Canvas",
     "isSold": false
   },
