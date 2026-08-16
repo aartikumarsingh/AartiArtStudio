@@ -388,7 +388,7 @@ export default function Home() {
             <div>
               <h4 className="font-['Poppins'] font-semibold mb-4">Contact Info</h4>
               <ul className="space-y-2 text-gray-400 text-sm">
-                <li>📍 C-807, Mayflower grand, Nacharam - Mallapur, Hyderabad- 500076</li>
+                <li>📍 Gulmohar Residency, Krishna Nagar, Moula Ali, Hyderabad- 500040, Telengana</li>
                 <li>📞 +91 80195 74565</li>
                 <li>✉️ aartikumarsingh555@gmail.com</li>
               </ul>
