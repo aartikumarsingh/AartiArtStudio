@@ -15,16 +15,16 @@ export const IMAGES = [
     "isSold": false
     },
     {
-    "public_id": "Krishna",
+    "public_id": "🌌 Cosmic Krishna – Acrylic Painting 🌌",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/v1778963108/IMG-20260516-WA0002_d2gw3z.jpg",
-    "title": "Krishna",
+    "title": "🌌 Cosmic Krishna – Acrylic Painting 🌌",
     "category": "Medium-Acrylic",
     "price": 15000,
     "originalPrice": 18999,
     "sku": "SKU# ",
     "year": "2026",
-    "size": "Customized",
-    "description": "Medium-Acrylic on Stretched canvas",
+    "size": "24 x 36 inches",
+    "description": "A breathtaking handpainted acrylic of Lord Krishna playing his flute amidst a celestial sky, wrapped in swirling clouds with planets, stars and a glowing golden halo. A vision where divinity meets the infinite universe. 100% Handpainted Acrylic on Canvas. Stunning cosmic theme — galaxies, planets & celestial clouds, Rich gold detailing against deep blue tones, Perfect for living rooms, meditation spaces & statement walls, Where the divine meets the infinite. ✨🪈",
     "medium": "Acrylic on Canvas",
     "isSold": true
     },
