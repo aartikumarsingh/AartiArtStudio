@@ -16,7 +16,7 @@ export const IMAGES = [
     },
     {
     "public_id": "🌌 Cosmic Krishna – Acrylic Painting 🌌",
-    "url": "https://res.cloudinary.com/dllpxron7/image/upload/v1778963108/IMG-20260516-WA0002_d2gw3z.jpg", "https://res.cloudinary.com/eez1bs5e/image/upload/v1787921850/Cosmic_Krishna.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1787921850/Cosmic_Krishna.jpg",
     "title": "🌌 Cosmic Krishna – Acrylic Painting 🌌",
     "category": "Medium-Acrylic",
     "price": 15000,
