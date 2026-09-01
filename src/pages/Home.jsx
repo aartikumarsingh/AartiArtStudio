@@ -75,7 +75,8 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Hand-painted masterpieces that bring beauty and emotion to your space since 2014
+            Welcome into my world of colour, texture, and emotion. Authentic, hand-painted masterpieces crafted to breathe life and lasting beauty into your everyday environment since 2016. Every canvas tells a unique story.
+
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
