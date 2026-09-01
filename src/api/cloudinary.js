@@ -88,7 +88,7 @@ export const IMAGES = [
     "public_id": "Acrytlic Painting",
     "url": "https://res.cloudinary.com/dllpxron7/image/upload/q_auto/f_auto/v1775055027/IMG-20260401-WA0007_mxrpbp.jpg",
     "title": "🏮 Glowing Lantern – Acrylic Painting 🏮",
-    "category": "Still Painting",
+    "category": "Still Paintings",
     "price": 2199,
     "originalPrice": 2999,
     "sku": "SKU# ",
