@@ -684,7 +684,7 @@ export const IMAGES = [
     "size": "16 x 24 inches",
     "description": "A masterpiece of calm. This hand painted acrylic artwork features a meditative Buddha rendered in mesmerizing shades of jade and emerald, set against a golden-green canvas alive with blooming lotus flowers — nature's own symbol of purity and rebirth. Every brushstroke breathes stillness. Every lotus petal whispers peace. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich texture, vibrant detail, gallery-quality finish. ✅ Radiates positive energy — ideal for living rooms, entryways, offices & meditation spaces. ✅ A timeless gift for housewarmings, weddings & special occasions. This isn't just wall art — it's a daily reminder to breathe, pause, and find your center. 🙏✨.",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
 
@@ -700,7 +700,7 @@ export const IMAGES = [
     "size": "18 x 28 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
   {
@@ -715,7 +715,7 @@ export const IMAGES = [
     "size": "18 x 18 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
   {
@@ -730,7 +730,7 @@ export const IMAGES = [
     "size": "12 x 16 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
   {
@@ -745,7 +745,7 @@ export const IMAGES = [
     "size": "18 x 24 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
   {
@@ -760,7 +760,7 @@ export const IMAGES = [
     "size": "16 x 20 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false
+    "isSold": false,
     "framed": false
   },
   {
