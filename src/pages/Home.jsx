@@ -75,9 +75,9 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Welcome into my world! <br />
-            Authentic, hand-painted masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br /> 
-            Every canvas tells a unique story.
+            Welcome into my World! <br />
+            Authentic, Hand-painted Masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br /> 
+            Every Canvas tells a Unique Story.
 
           </p>
           
