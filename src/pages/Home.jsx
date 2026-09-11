@@ -54,7 +54,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#FAF9F4] to-[#FFFFFF]">
+    <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2]">
       
       {/* Simple Hero Section */}
       <section className="relative w-full min-h-[600px] flex items-center justify-center overflow-hidden">
@@ -66,7 +66,7 @@ export default function Home() {
               className="w-full h-full object-cover opacity-20"
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#FAF9F4] to-[#FFFFFF] opacity-90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#667eea] to-[#764ba2] opacity-90"></div>
         </div>
         
         <div className="relative w-full max-w-7xl mx-auto px-4 text-center text-white">
