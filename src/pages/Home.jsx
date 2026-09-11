@@ -41,7 +41,7 @@ export default function Home() {
 
   if (loading) {
     return (
-      <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] pt-20">
+      <div className="w-full min-h-screen bg-gradient-to-br from-[#FAF9F4] to-[#FFFFFF] pt-20">
         <div className="w-full px-4 py-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {[1,2,3,4,5,6,7,8].map(n => (
@@ -54,7 +54,7 @@ export default function Home() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2]">
+    <div className="w-full min-h-screen bg-gradient-to-br from-[#FAF9F4] to-[#FFFFFF]">
       
       {/* Simple Hero Section */}
       <section className="relative w-full min-h-[600px] flex items-center justify-center overflow-hidden">
@@ -66,7 +66,7 @@ export default function Home() {
               className="w-full h-full object-cover opacity-20"
             />
           )}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#667eea] to-[#764ba2] opacity-90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-[#FAF9F4] to-[#FFFFFF] opacity-90"></div>
         </div>
         
         <div className="relative w-full max-w-7xl mx-auto px-4 text-center text-white">
@@ -75,7 +75,9 @@ export default function Home() {
           </h1>
           
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
-            Welcome into my world of colour, texture, and emotion. Authentic, hand-painted masterpieces crafted to breathe life and lasting beauty into your everyday environment since 2016. Every canvas tells a unique story.
+            Welcome into my world! <br />
+            Authentic, hand-painted masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br /> 
+            Every canvas tells a unique story.
 
           </p>
           
