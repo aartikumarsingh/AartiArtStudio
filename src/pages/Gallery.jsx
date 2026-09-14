@@ -34,6 +34,7 @@ export default function Gallery() {
       title: item.title,
       price: item.price,
       image: item.url,
+      size: item.size,
       category: item.category,
       quantity: 1
     });
