@@ -10,7 +10,11 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 30 inches",
-    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing — floral crown, jewellery & flowing robes. ✅ Perfect for pooja rooms, living rooms & festive gifting. Let the music of Krishna fill your space. 🪈🙏.",
+    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. <br />
+            ✅ 100% Hand painted Acrylic on Canvas. <br />
+            ✅ Rich detailing — floral crown, jewellery & flowing robes. <br />
+        ✅ Perfect for pooja rooms, living rooms & festive gifting. <br />
+        Let the music of Krishna fill your space. 🪈🙏.",
     "medium": "Acrylic on Canvas",
     "isSold": false
 "isSold"; ture 
