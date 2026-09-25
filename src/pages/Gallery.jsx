@@ -115,7 +115,7 @@ export default function Gallery() {
                     {!item.isSold && (
                       <button
                         onClick={(e) => handleAddToCart(item, e)}
-                        className="absolute bottom-3 right-3 w-10 h-10 bg-white border border-gray-200 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-black hover:text-white"
+                        className="absolute bottom-3 right-3 w-10 h-10 bg-black text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 shadow-lg transition-all hover:bg-gray-800 hover:scale-110"
                       >
                         <ShoppingBag size={18} />
                       </button>
