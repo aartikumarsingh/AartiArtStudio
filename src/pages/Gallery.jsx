@@ -9,20 +9,19 @@ export default function Gallery() {
   const { addToCart } = useCart();
   const [searchParams] = useSearchParams();
   const [activeFilter, setActiveFilter] = useState('all');
-  
   const categoryFromUrl = searchParams.get('category');
-  
+
   // Get unique categories
   const categories = ['all', ...new Set(images.map(img => img.category))];
-  
+
   useEffect(() => {
     if (categoryFromUrl) {
       setActiveFilter(categoryFromUrl);
     }
   }, [categoryFromUrl]);
 
-  const filtered = activeFilter === 'all' 
-    ? images 
+  const filtered = activeFilter === 'all'
+    ? images
     : images.filter(img => img.category === activeFilter);
 
   const handleAddToCart = (item, e) => {
@@ -43,11 +42,11 @@ export default function Gallery() {
 
   if (loading) {
     return (
-      <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] pt-20">
+      <div className="w-full min-h-screen bg-white pt-20">
         <div className="w-full px-4 py-20">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             {[1,2,3,4,5,6,7,8].map(n => (
-              <div key={n} className="bg-white/10 backdrop-blur-sm h-80 rounded-xl animate-pulse"></div>
+              <div key={n} className="bg-gray-100 h-80 rounded-xl animate-pulse"></div>
             ))}
           </div>
         </div>
@@ -56,14 +55,14 @@ export default function Gallery() {
   }
 
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] pt-20">
+    <div className="w-full min-h-screen bg-white pt-20">
       <div className="w-full px-4 py-8">
         {/* Header */}
         <div className="w-full max-w-7xl mx-auto text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-['Poppins'] font-bold text-white mb-4">
+          <h1 className="text-4xl md:text-5xl font-['Poppins'] font-bold text-black mb-4">
             Art Gallery
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Explore our collection of {images.length} original artworks
           </p>
         </div>
@@ -76,8 +75,8 @@ export default function Gallery() {
               onClick={() => setActiveFilter(cat)}
               className={`px-6 py-2 rounded-full text-sm font-['Poppins'] font-medium transition-all ${
                 activeFilter === cat
-                  ? 'bg-white text-[#667eea] shadow-lg'
-                  : 'bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 border border-white/20'
+                  ? 'bg-black text-white shadow-lg'
+                  : 'bg-gray-50 text-black hover:bg-gray-100 border border-gray-200'
               }`}
             >
               {cat}
@@ -91,50 +90,57 @@ export default function Gallery() {
             {filtered.map((item) => (
               <div key={item.public_id} className="group">
                 <Link to={`/product/${item.public_id}`}>
-                  <div className="relative bg-white/10 backdrop-blur-md rounded-xl overflow-hidden border border-white/20 hover:scale-105 transition-all duration-300">
+                  <div className="relative bg-gray-50 rounded-xl overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300">
                     <img
                       src={item.url}
                       alt={item.title}
                       className="w-full h-64 object-cover"
                     />
-                    
+
                     {/* Badges */}
                     <div className="absolute top-3 left-3 flex flex-col gap-2">
                       {item.isSold && (
-                        <span className="bg-red-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                        <span className="bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded-full">
                           Sold
                         </span>
                       )}
                       {item.year === 2026 && !item.isSold && (
-                        <span className="bg-yellow-400 text-xs font-semibold px-2 py-1 rounded-full">
+                        <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">
                           New
                         </span>
                       )}
                     </div>
-                    
+
                     {/* Add to Cart Button */}
                     {!item.isSold && (
-                      <button 
+                      <button
                         onClick={(e) => handleAddToCart(item, e)}
-                        className="absolute bottom-3 right-3 w-10 h-10 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-white hover:text-[#667eea]"
+                        className="absolute bottom-3 right-3 w-10 h-10 bg-white border border-gray-200 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-black hover:text-white"
                       >
                         <ShoppingBag size={18} />
                       </button>
                     )}
                   </div>
                 </Link>
-                
-                <div className="mt-3 text-white">
+
+                <div className="mt-3 text-black">
                   <Link to={`/product/${item.public_id}`}>
-                    <h3 className="font-['Poppins'] font-semibold hover:text-yellow-300 transition-colors line-clamp-1">
+                    <h3 className="font-['Poppins'] font-semibold hover:text-gray-600 transition-colors line-clamp-1">
                       {item.title}
                     </h3>
                   </Link>
-                  <p className="text-white/60 text-sm">{item.category}</p>
+                  <p className="text-gray-500 text-sm">{item.category}</p>
+                  {(item.size || item.medium) && (
+                    <p className="text-gray-500 text-xs mt-1">
+                      {item.size && <span>{item.size}</span>}
+                      {item.size && item.medium && <span> • </span>}
+                      {item.medium && <span>{item.medium}</span>}
+                    </p>
+                  )}
                   {item.isSold ? (
-                    <span className="text-red-400 font-semibold">Sold</span>
+                    <span className="text-red-600 font-semibold">Sold</span>
                   ) : (
-                    <span className="font-bold text-yellow-300">₹{item.price.toLocaleString('en-IN')}</span>
+                    <span className="font-bold text-black">₹{item.price.toLocaleString('en-IN')}</span>
                   )}
                 </div>
               </div>
