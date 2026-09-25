@@ -117,13 +117,20 @@ export default function Home() {
                       <h3 className="text-black font-['Poppins'] font-semibold text-sm mb-1 line-clamp-1">
                         {item.title}
                       </h3>
-                      <p className="text-gray-500 text-xs mb-2">{item.category}</p>
+                      <p className="text-gray-500 text-xs mb-1">{item.category}</p>
+                      {(item.size || item.medium) && (
+                        <p className="text-gray-500 text-xs mb-2">
+                          {item.size && <span>{item.size}</span>}
+                          {item.size && item.medium && <span> • </span>}
+                          {item.medium && <span>{item.medium}</span>}
+                        </p>
+                      )}
                       <div className="flex items-center justify-between">
                         <span className="text-black font-bold">₹{item.price.toLocaleString('en-IN')}</span>
                         {!item.isSold && (
                           <button
                             onClick={(e) => handleAddToCart(item, e)}
-                            className="bg-gray-100 hover:bg-black hover:text-white p-2 rounded-full transition-colors"
+                            className="bg-black text-white hover:bg-gray-800 p-2 rounded-full shadow-md transition-colors"
                           >
                             <ShoppingBag size={16} />
                           </button>
@@ -182,7 +189,7 @@ export default function Home() {
                     {!item.isSold && (
                       <button
                         onClick={(e) => handleAddToCart(item, e)}
-                        className="absolute bottom-3 right-3 w-10 h-10 bg-white border border-gray-200 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all hover:bg-black hover:text-white"
+                        className="absolute bottom-3 right-3 w-10 h-10 bg-black text-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 shadow-lg transition-all hover:bg-gray-800 hover:scale-110"
                       >
                         <ShoppingBag size={18} />
                       </button>
@@ -197,6 +204,13 @@ export default function Home() {
                     </h3>
                   </Link>
                   <p className="text-gray-500 text-sm">{item.category}</p>
+                  {(item.size || item.medium) && (
+                    <p className="text-gray-500 text-xs mt-1">
+                      {item.size && <span>{item.size}</span>}
+                      {item.size && item.medium && <span> • </span>}
+                      {item.medium && <span>{item.medium}</span>}
+                    </p>
+                  )}
                   {item.isSold ? (
                     <span className="text-red-600 font-semibold">Sold</span>
                   ) : (
