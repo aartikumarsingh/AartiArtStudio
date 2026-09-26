@@ -73,8 +73,8 @@ export default function Home() {
             AARTI ART STUDIO
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Welcome into my World! <br />
-            Authentic, Hand-painted Masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br />
+            Welcome to my World! <br />
+            Authentic, Hand-painted Masterpieces crafted to breathe life into your everyday environment. <br />
             Every Canvas tells a Unique Story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
