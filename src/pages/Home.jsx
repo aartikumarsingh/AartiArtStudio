@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import {
   ShoppingBag, Truck, Shield, RotateCcw,
-  ArrowRight, TrendingUp, Award,
+  ArrowRight,
   FileText, Shield as ShieldIcon, AlertCircle,
   Mail, Users, ChevronRight
 } from 'lucide-react';
@@ -13,18 +13,6 @@ export default function Home() {
   const { images, loading } = useImages();
   const { addToCart } = useCart();
   const [hoveredCard, setHoveredCard] = useState(null);
-
-  // Top selling paintings (based on price)
-  const topSelling = images.filter(img =>
-    img.price > 2000 || img.category.includes('Spiritual') || img.category.includes('Abstract')
-  ).slice(0, 4);
-
-  const categories = [
-    { name: 'Landscape', image: images[0]?.url, count: 25 },
-    { name: 'Wildlife', image: images[1]?.url, count: 18 },
-    { name: 'Abstract', image: images[2]?.url, count: 15 },
-    { name: 'Floral', image: images[5]?.url, count: 22 }
-  ];
 
   const handleAddToCart = (item, e) => {
     e.preventDefault();
@@ -88,65 +76,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* Top Selling Section */}
-      {topSelling.length > 0 && (
-        <section className="w-full py-12 px-4">
-          <div className="w-full max-w-7xl mx-auto">
-            <div className="flex items-center gap-3 mb-6">
-              <TrendingUp className="text-black" size={24} />
-              <h2 className="text-2xl md:text-3xl font-['Poppins'] font-bold text-black">
-                Top Selling Artworks
-              </h2>
-              <Award className="text-black" size={24} />
-            </div>
-
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-              {topSelling.map((item, index) => (
-                <div key={item.public_id} className="group relative bg-gray-50 rounded-xl overflow-hidden border border-gray-200 hover:scale-105 transition-all duration-300">
-                  <Link to={`/product/${item.public_id}`}>
-                    <img
-                      src={item.url}
-                      alt={item.title}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="absolute top-2 left-2 bg-black text-white text-xs font-bold px-2 py-1 rounded-full">
-                      #{index + 1} Top Seller
-                    </div>
-                    <div className="p-3">
-                      <h3 className="text-black font-['Poppins'] font-semibold text-sm mb-1 line-clamp-1">
-                        {item.title}
-                      </h3>
-                      <p className="text-gray-500 text-xs mb-1">{item.category}</p>
-                      {(item.size || item.medium) && (
-                        <p className="text-gray-500 text-xs mb-2">
-                          {item.size && <span>{item.size}</span>}
-                          {item.size && item.medium && <span> • </span>}
-                          {item.medium && <span>{item.medium}</span>}
-                        </p>
-                      )}
-                      <div className="flex items-center justify-between">
-                        <span className="text-black font-bold">₹{item.price.toLocaleString('en-IN')}</span>
-                        {!item.isSold && (
-                          <button
-                            onClick={(e) => handleAddToCart(item, e)}
-                            className="bg-black text-white hover:bg-gray-800 p-2 rounded-full shadow-md transition-colors"
-                          >
-                            <ShoppingBag size={16} />
-                          </button>
-                        )}
-                        {item.isSold && (
-                          <span className="text-red-600 text-xs font-semibold">Sold</span>
-                        )}
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-      )}
 
       {/* Featured Artworks */}
       <section className="w-full py-16 px-4">
@@ -257,37 +186,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Categories Section */}
-      <section className="w-full py-16 px-4">
-        <div className="w-full max-w-7xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-black text-center mb-12">
-            Shop by Category
-          </h2>
-
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {categories.map((cat, index) => (
-              <Link
-                to="/gallery"
-                key={index}
-                className="group relative h-64 rounded-xl overflow-hidden border border-gray-200"
-              >
-                <img
-                  src={cat.image}
-                  alt={cat.name}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex items-end p-6">
-                  <div>
-                    <h3 className="text-white text-2xl font-['Poppins'] font-bold">{cat.name}</h3>
-                    <p className="text-white/80 text-sm mt-1">{cat.count} Artworks</p>
-                  </div>
-                </div>
-              </Link>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Newsletter */}
       <section className="w-full py-16 px-4 bg-gray-50 border-y border-gray-200">
         <div className="w-full max-w-7xl mx-auto text-center">
@@ -378,7 +276,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-['Poppins'] font-bold mb-4">AARTI ART STUDIO</h3>
               <p className="text-gray-600 text-sm">
-                Creating beautiful artwork that brings joy and inspiration to your space since 2014.
+                Creating beautiful artwork that brings joy and inspiration to your space since 2016.
               </p>
             </div>
             <div>
