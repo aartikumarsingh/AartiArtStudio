@@ -4,10 +4,10 @@ export default function About() {
   return (
     <>
       {/* Hero */}
-      <div className="bg-[#E14749] pt-32 pb-20">
+      <div className="bg-[#E14749] pt-16 pb-10">
         <div className="container-custom text-center text-white">
           <h1 className="font-montserrat text-4xl md:text-6xl font-bold mb-4">ABOUT</h1>
-          <p className="font-poppins text-lg text-white/90 max-w-2xl mx-auto">
+          <p className="font-poppins text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">
             Aarti Kumar Singh
           </p>
         </div>
