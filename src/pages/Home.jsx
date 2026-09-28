@@ -61,8 +61,8 @@ export default function Home() {
             AARTI ART STUDIO
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Welcome to my World! <br />
-            Authentic, Hand-painted Masterpieces crafted to breathe life into your everyday environment. <br />
+            Welcome into my World! <br />
+            Authentic, Hand-painted Masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br />
             Every Canvas tells a Unique Story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -84,7 +84,7 @@ export default function Home() {
             Featured Artworks
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {images.slice(0, 8).map((item, index) => (
               <div
                 key={item.public_id}
@@ -97,7 +97,7 @@ export default function Home() {
                     <img
                       src={item.url}
                       alt={item.title}
-                      className="w-full h-64 object-cover"
+                      className="w-full aspect-[3/4] object-contain bg-black"
                     />
 
                     {/* Badges */}
@@ -276,7 +276,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-['Poppins'] font-bold mb-4">AARTI ART STUDIO</h3>
               <p className="text-gray-600 text-sm">
-                Creating beautiful artwork that brings joy and inspiration to your space since 2016.
+                Creating beautiful artwork that brings joy and inspiration to your space since 2014.
               </p>
             </div>
             <div>
