@@ -86,7 +86,7 @@ export default function Gallery() {
 
         {/* Gallery Grid */}
         <div className="w-full max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filtered.map((item) => (
               <div key={item.public_id} className="group">
                 <Link to={`/product/${item.public_id}`}>
@@ -94,7 +94,7 @@ export default function Gallery() {
                     <img
                       src={item.url}
                       alt={item.title}
-                      className="w-full h-64 object-cover"
+                      className="w-full aspect-[3/4] object-contain bg-black"
                     />
 
                     {/* Badges */}
