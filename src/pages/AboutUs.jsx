@@ -27,7 +27,7 @@ export default function About() {
                 blend traditional techniques with contemporary expressions. 
               </p>
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
-                Aarti's artistic journey began in 2012 during a transformative three-year stay in the United States. As a self-taught artist, she honed her craft by studying the masters, translating their iconic styles into her own visual vocabulary. While she initially fell in love with the rich textures of oil painting, she later transitioned to the versatility of acrylics. After returning to India, she expanded her artistic repertoire by mastering new, intricate sketching and painting techniques that define her current portfolio.
+              An accomplished artist and educator, Aarti began her creative journey in 2012 while living in the United States. After mastering self-taught techniques in oils and acrylics inspired by iconic artists, she returned to India to formalise her expertise. Holding a Diploma in Fine Arts alongside a Diploma in Teacher’s Training, Aarti has expanded her repertoire to seamlessly blend technical precision with creative expression in her current portfolio.
               </p>
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
                 Each artwork in our collection is original, handcrafted with care and attention
