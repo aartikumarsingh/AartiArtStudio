@@ -23,8 +23,11 @@ export default function About() {
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
                 AARTI ART STUDIO was founded in 2016 by Aarti Kumar Singh, a passionate artist
                 with a vision to bring beautiful, original artwork to collectors and art lovers.
-                Based in Hyderabad, our studio specializes in creating soulful paintings that
-                blend traditional techniques with contemporary expressions.
+                Based in Hyderabad, the studio specializes in creating soulful paintings that
+                blend traditional techniques with contemporary expressions. 
+              </p>
+              <p className="font-poppins text-gray-700 leading-relaxed mb-6">
+                Aarti's artistic journey began in 2012 during a transformative three-year stay in the United States. As a self-taught artist, she honed her craft by studying the masters, translating their iconic styles into her own visual vocabulary. While she initially fell in love with the rich textures of oil painting, she later transitioned to the versatility of acrylics. After returning to India, she expanded her artistic repertoire by mastering new, intricate sketching and painting techniques that define her current portfolio.
               </p>
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
                 Each artwork in our collection is original, handcrafted with care and attention
