@@ -2,10 +2,10 @@
 export const IMAGES = [
         {
     "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
     "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg",
      ],
     "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
@@ -14,7 +14,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 inches",
-    "description": "A charming hand painted acrylic of baby Krishna glancing over his shoulder with a sweet, mischievous smile, crowned with peacock feathers and adorned with layered jewellery against a glowing golden backdrop. <br> ✅ 100% Hand painted Acrylic on Round Canvas. <br> ✅ Rich detailing: peacock feather crown, beaded necklaces, gold earrings & flowing blue drapes. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting, especially Janmashtami. <br> Let the warmth of Nandlala's smile brighten your home. 🦚🙏.",
+    "description": "A charming hand painted acrylic of baby Krishna glancing over his shoulder with a sweet, mischievous smile, crowned with peacock feathers and adorned with layered jewellery against a glowing golden backdrop. ✅ 100% Hand painted Acrylic on Round Canvas. ✅ Rich detailing: peacock feather crown, beaded necklaces, gold earrings & flowing blue drapes. ✅ Perfect for pooja rooms, living rooms & festive gifting, especially Janmashtami. Let the warmth of Nandlala's smile brighten your home. 🦚🙏.",
     "medium": "Acrylic on Round Canvas",
     "isSold": false,
     },
@@ -32,7 +32,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "34 x 50 inches",
-    "description": "A large, richly coloured hand painted acrylic of Lord Krishna playing his flute with eyes closed in serene devotion, encircled by gentle cows and calves as a golden halo glow behind him. Set against a sunset sky, a riverside ghat and a graceful chhatri, the scene brings the peace of Vrindavan to life. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich detailing: peacock feather crown, purple flower garlands, gold jewellery, and adorned cows with tender little calves. <br> ✅ Perfect for pooja rooms, living rooms, meditation spaces & housewarming gifts. <br> May the flute's calm and Govinda's blessings fill your home. 🪈🦚🙏.",
+    "description": "A large, richly coloured hand painted acrylic of Lord Krishna playing his flute with eyes closed in serene devotion, encircled by gentle cows and calves as a golden halo glow behind him. Set against a sunset sky, a riverside ghat and a graceful chhatri, the scene brings the peace of Vrindavan to life. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: peacock feather crown, purple flower garlands, gold jewellery, and adorned cows with tender little calves. ✅ Perfect for pooja rooms, living rooms, meditation spaces & housewarming gifts. May the flute's calm and Govinda's blessings fill your home. 🪈🦚🙏.",
     "medium": "Acrylic on Canvas (Rolled)",
     "isSold": false,
     },
@@ -51,7 +51,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 30 inches",
-    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. <br> ✅ 100% Hand painted Acrylic on Canvas. <br>✅ Rich detailing — floral crown, jewellery & flowing robes. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Let the music of Krishna fill your space. 🪈🙏.",
+    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing — floral crown, jewellery & flowing robes. ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Let the music of Krishna fill your space. 🪈🙏.",
     "medium": "Acrylic on Canvas - Framed",
     "isSold": false,
     },
@@ -71,7 +71,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "30 x 36 inches",
-    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich detailing — jewellery, drapery & peacock crown. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
+    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing — jewellery, drapery & peacock crown. ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
     "medium": "Acrylic on Streched Canvas",
     "isSold": false
     },
@@ -89,7 +89,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "12 x 16 inches",
-    "description": "A radiant hand painted acrylic of Lord Shrinathji, his deep blue face adorned with an ornate golden crown, peacock feather and layered pearl-and-gold jewellery, set against a warm terracotta backdrop with lotus blooms in full flower. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Intricate detailing — royal crown, jewellery & peacock feather. <br> ✅ Rich, warm palette with striking traditional motifs. <br> ✅ Perfect for pooja rooms, living rooms & devotional gifting. <br> Divine grace, painted with devotion. 🪷🙏.",
+    "description": "A radiant hand painted acrylic of Lord Shrinathji, his deep blue face adorned with an ornate golden crown, peacock feather and layered pearl-and-gold jewellery, set against a warm terracotta backdrop with lotus blooms in full flower. ✅ 100% Hand painted Acrylic on Canvas. ✅ Intricate detailing — royal crown, jewellery & peacock feather. ✅ Rich, warm palette with striking traditional motifs. ✅ Perfect for pooja rooms, living rooms & devotional gifting. Divine grace, painted with devotion. 🪷🙏.",
     "medium": "Acrylic on Streched Canvas",
     "isSold": false
     },
@@ -103,7 +103,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2025",
     "size": "14 x 18 inches",
-    "description": "A striking handpainted acrylic portrait of a woman in quiet profile, crowned by a majestic white dove with outstretched wings, surrounded by flitting red birds and lush green vines against a muted sage backdrop. A poetic blend of realism and symbolism. <br> ✅ 100% Handpainted Acrylic on Canvas. <br> ✅ Fine detailing — realistic portrait meets stylized birds. <br> ✅ Soft, earthy palette with striking red accents. <br> ✅ Perfect for living rooms, study spaces & contemporary art collectors. <br> A quiet gaze, a soul set free. 🌿🎨",
+    "description": "A striking handpainted acrylic portrait of a woman in quiet profile, crowned by a majestic white dove with outstretched wings, surrounded by flitting red birds and lush green vines against a muted sage backdrop. A poetic blend of realism and symbolism. ✅ 100% Handpainted Acrylic on Canvas. ✅ Fine detailing — realistic portrait meets stylized birds. ✅ Soft, earthy palette with striking red accents. ✅ Perfect for living rooms, study spaces & contemporary art collectors. A quiet gaze, a soul set free. 🌿🎨",
     "medium": "Acrylic on Canvas Board",
     "isSold": false
     },
@@ -117,7 +117,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 36 inches",
-    "description": "A breathtaking handpainted acrylic of Lord Krishna playing his flute amidst a celestial sky, wrapped in swirling clouds with planets, stars and a glowing golden halo. A vision where divinity meets the infinite universe. <br> ✨ 100% Handpainted Acrylic on Canvas. <br> ✨ Stunning cosmic theme — galaxies, planets & celestial clouds. <br> ✨ Rich gold detailing against deep blue tones. <br> ✨ Perfect for living rooms, meditation spaces & statement walls. <br> ✨ Where the divine meets the infinite. ✨🪈",
+    "description": "A breathtaking handpainted acrylic of Lord Krishna playing his flute amidst a celestial sky, wrapped in swirling clouds with planets, stars and a glowing golden halo. A vision where divinity meets the infinite universe. ✨ 100% Handpainted Acrylic on Canvas. ✨ Stunning cosmic theme — galaxies, planets & celestial clouds. ✨ Rich gold detailing against deep blue tones. ✨ Perfect for living rooms, meditation spaces & statement walls. ✨ Where the divine meets the infinite. ✨🪈",
     "medium": "Acrylic on Canvas",
     "isSold": true
     },
@@ -131,8 +131,8 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": "",
     "size": "18 x 30 inches",
-    "description": "Medium-oil on canvas paper",
-    "medium": "Acrylic on Canvas",
+    "description": "Medium-Oil on Canvas Paper",
+    "medium": "Oil on Canvas Paper - Rolled",
     "isSold": false
     },
     {
@@ -145,7 +145,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": 2026,
     "size": "16 x 20 inches",
-    "description": "A striking hand painted acrylic of a vintage red lantern glowing warmly amidst a forest of blue-green trees and golden autumn leaves. Bold, expressive brushstrokes bring a cozy, nostalgic warmth against a cool woodland backdrop. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich contrast of warm reds & golds against cool blues & greens. <br> ✅ Expressive, textured brushwork with striking detail. <br> ✅ Perfect for living rooms, cozy corners & rustic-themed spaces. <br> A glow that lights up any wall. 🍂🎨.",
+    "description": "A striking hand painted acrylic of a vintage red lantern glowing warmly amidst a forest of blue-green trees and golden autumn leaves. Bold, expressive brushstrokes bring a cozy, nostalgic warmth against a cool woodland backdrop. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich contrast of warm reds & golds against cool blues & greens. ✅ Expressive, textured brushwork with striking detail. ✅ Perfect for living rooms, cozy corners & rustic-themed spaces. <br> A glow that lights up any wall. 🍂🎨.",
     "medium": "Acrylic on Canvas",
     "isSold": false
   },
@@ -159,8 +159,8 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": 2024,
     "size": "08 x 10 inches",
-    "description": "Acrylic On Stretched Canvas",
-    "medium": "Acrylic on Canvas",
+    "description": "Acrylic On Canvas board - Framed",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": true
   },
   {
@@ -173,8 +173,8 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": 2024,
     "size": "08 x 10 inches",
-    "description": "Acrylic On Stretched Canvas",
-    "medium": "Acrylic",
+    "description": "Acrylic On Canvas board - Framed",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": true
   },
   {
@@ -187,8 +187,8 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": 2024,
     "size": "12 x 12 inches",
-    "description": "Acrylic On Stretched Canvas",
-    "medium": "Acrylic on Canvas",
+    "description": "Acrylic On Canvas Board - Framed",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": true
   },
   {
@@ -202,7 +202,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "18 x 18 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -216,7 +216,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -230,7 +230,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -244,7 +244,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -258,7 +258,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -272,7 +272,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -286,7 +286,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -300,7 +300,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -314,7 +314,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -328,7 +328,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -342,7 +342,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -356,7 +356,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -370,7 +370,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -384,7 +384,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -398,7 +398,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -412,7 +412,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -426,7 +426,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -440,7 +440,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -454,7 +454,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -468,7 +468,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -482,7 +482,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -496,7 +496,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -510,7 +510,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -608,7 +608,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "10 x 12 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -622,7 +622,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "10 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -636,7 +636,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -649,8 +649,8 @@ export const IMAGES = [
     "sku": "SKU# A0037",
     "year": 2026,
     "size": "10 x 10 inches",
-    "description": "A vivid close-up hand painted acrylic of a peony rose in full bloom, its ruffled crimson and pink petals unfolding around a golden center, set against a rich tapestry of emerald and teal foliage. Elegantly framed in black, ready to hang. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Bold, layered petals in rich pinks & reds. <br> ✅ Comes ready-to-hang in a sleek black frame. <br> ✅ Perfect for living rooms, bedrooms & romantic accent walls. <br> A rose that never wilts. 🌿🎨",
-    "medium": "Acrylic on Canvas",
+    "description": "A vivid close-up hand painted acrylic of a peony rose in full bloom, its ruffled crimson and pink petals unfolding around a golden center, set against a rich tapestry of emerald and teal foliage. Elegantly framed in black, ready to hang. ✅ 100% Hand painted Acrylic on Canvas. ✅ Bold, layered petals in rich pinks & reds. ✅ Comes ready-to-hang in a sleek black frame. ✅ Perfect for living rooms, bedrooms & romantic accent walls. A rose that never wilts. 🌿🎨",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -664,7 +664,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "10 x 10 inches",
     "description": "Acrylic on Canvas (Framed)",
-    "medium": "Acrylic on Canvas",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -678,7 +678,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "12 x 12 inches",
     "description": "Acrylic on Canvas (Framed)",
-    "medium": "Acrylic on Canvas",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -692,7 +692,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "12 x 12 inches",
     "description": "Acrylic on Canvas (Framed)",
-    "medium": "Acrylic on Canvas",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -706,7 +706,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -720,7 +720,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "10 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -733,7 +733,7 @@ export const IMAGES = [
     "sku": "SKU# A0043",
     "year": 2026,
     "size": "16 x 24 inches",
-    "description": "A masterpiece of calm. This hand painted acrylic artwork features a meditative Buddha rendered in mesmerizing shades of jade and emerald, set against a golden-green canvas alive with blooming lotus flowers — nature's own symbol of purity and rebirth. Every brushstroke breathes stillness. Every lotus petal whispers peace. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich texture, vibrant detail, gallery-quality finish. <br> ✅ Radiates positive energy — ideal for living rooms, entryways, offices & meditation spaces. <br> ✅ A timeless gift for housewarmings, weddings & special occasions. <br> This isn't just wall art — it's a daily reminder to breathe, pause, and find your center. 🙏✨.",
+    "description": "A masterpiece of calm. This hand painted acrylic artwork features a meditative Buddha rendered in mesmerizing shades of jade and emerald, set against a golden-green canvas alive with blooming lotus flowers — nature's own symbol of purity and rebirth. Every brushstroke breathes stillness. Every lotus petal whispers peace. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich texture, vibrant detail, gallery-quality finish. ✅ Radiates positive energy — ideal for living rooms, entryways, offices & meditation spaces. ✅ A timeless gift for housewarmings, weddings & special occasions. This isn't just wall art — it's a daily reminder to breathe, pause, and find your center. 🙏✨.",
     "medium": "Acrylic on Stretched Canvas",
     "isSold": false
   },
@@ -818,7 +818,7 @@ export const IMAGES = [
     "sku": "SKU# A0050",
     "year": 2026,
     "size": "24 inch Diameter",
-    "description": "A bold, close-up hand painted acrylic of blooming sunflowers rendered in vivid golds and warm browns, set against a striking electric-blue backdrop with hints of magenta. Loose, expressive brushstrokes give this piece an energetic, sun-drenched feel on a unique circular canvas. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Vibrant palette — sunny yellows against vivid blues. <br> ✅ Unique round canvas format — a bold, modern statement piece. <br> ✅ Perfect for living rooms, kitchens & sunlit corners. <br> A burst of sunshine for any wall. ☀️🎨",            
+    "description": "A bold, close-up hand painted acrylic of blooming sunflowers rendered in vivid golds and warm browns, set against a striking electric-blue backdrop with hints of magenta. Loose, expressive brushstrokes give this piece an energetic, sun-drenched feel on a unique circular canvas. ✅ 100% Hand painted Acrylic on Canvas. ✅ Vibrant palette — sunny yellows against vivid blues. ✅ Unique round canvas format — a bold, modern statement piece. ✅ Perfect for living rooms, kitchens & sunlit corners. A burst of sunshine for any wall. ☀️🎨",            
     "medium": "Acrylic on Stretched Round Canvas",
     "isSold": false
   },
@@ -832,7 +832,7 @@ export const IMAGES = [
     "sku": "SKU# A0051",
     "year": 2026,
     "size": "24 inch Diameter",
-    "description": "A striking hand painted acrylic of a white lily in full bloom, rendered in bold contrasting strokes against a deep, moody backdrop of teal and forest greens. The vivid pops of yellow and crimson at its center bring the flower to life on this eye-catching circular canvas. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Unique round canvas format — a modern statement piece. <br> ✅ Bold, vibrant palette that pops on any wall. <br> ✅ Perfect for living rooms, entryways & contemporary spaces. <br> A fresh, artistic bloom that never fades. 🌿🎨.",
+    "description": "A striking hand painted acrylic of a white lily in full bloom, rendered in bold contrasting strokes against a deep, moody backdrop of teal and forest greens. The vivid pops of yellow and crimson at its center bring the flower to life on this eye-catching circular canvas. ✅ 100% Hand painted Acrylic on Canvas. ✅ Unique round canvas format — a modern statement piece. ✅ Bold, vibrant palette that pops on any wall. ✅ Perfect for living rooms, entryways & contemporary spaces. A fresh, artistic bloom that never fades. 🌿🎨.",
     "medium": "Acrylic on Stretched Round Canvas",
     "isSold": false
   },
@@ -847,7 +847,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "30 x 30 inches",
     "description": "Acrylic on Stretched Canvas",
-    "medium": "Acrylic on Stretched Canvas",
+    "medium": "Acrylic on Canvas - Rolled",
     "isSold": false
   },
   {
@@ -861,7 +861,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -875,7 +875,7 @@ export const IMAGES = [
     "year": 2026,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -889,7 +889,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -903,7 +903,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -917,7 +917,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -931,7 +931,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": true
   },
   {
@@ -945,7 +945,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -959,7 +959,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -973,7 +973,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "12 x 10 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -987,7 +987,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1001,7 +1001,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1015,7 +1015,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1029,7 +1029,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1043,7 +1043,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1057,7 +1057,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1071,7 +1071,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 6 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Streched Canvas",
     "isSold": false
   },
   {
@@ -1099,7 +1099,7 @@ export const IMAGES = [
     "year": 2025,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1113,7 +1113,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1127,7 +1127,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1141,7 +1141,7 @@ export const IMAGES = [
     "year": 2024,
     "size": "8 x 8 inches",
     "description": "Acrylic on Canvas Board (Framed)",
-    "medium": "Acrylic on Canvas Board",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false
   },
   {
@@ -1154,8 +1154,8 @@ export const IMAGES = [
     "sku": "SKU# B001",
     "year": 2026,
     "size": "12 x 16 inches",
-    "description": "A radiant hand painted acrylic of a golden Buddha in deep meditation, surrounded by pure white lotus blooms and lush greenery, set against a bold backdrop of crimson red and cobalt blue. A striking fusion of stillness and vibrant colour. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Bold, expressive palette — gold, red & blue in harmony. <br> ✅ Rich detailing — lotus blooms, drapery & serene expression. <br> ✅ Perfect for living rooms, meditation spaces & statement walls. <br> Golden calm for a colourful world. 🪷🙏",
-    "medium": "Acrylic on Canvas",
+    "description": "A radiant hand painted acrylic of a golden Buddha in deep meditation, surrounded by pure white lotus blooms and lush greenery, set against a bold backdrop of crimson red and cobalt blue. A striking fusion of stillness and vibrant colour. ✅ 100% Hand painted Acrylic on Canvas. ✅ Bold, expressive palette — gold, red & blue in harmony. ✅ Rich detailing — lotus blooms, drapery & serene expression. ✅ Perfect for living rooms, meditation spaces & statement walls. Golden calm for a colourful world. 🪷🙏",
+    "medium": "Acrylic on Streched Canvas",
     "isSold": false
   }
 ];
