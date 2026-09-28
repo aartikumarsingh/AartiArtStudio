@@ -2,10 +2,10 @@
 export const IMAGES = [
         {
     "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
     "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg",
      ],
     "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
