@@ -1,45 +1,96 @@
 // Yeh aapki saari images ka data hai - direct load, no cache
 export const IMAGES = [
         {
+    "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
+    "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg
+     ],
+    "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
+    "category": "Spiritual Paintings",
+    "price": 5100,
+    "originalPrice": 7500,
+    "sku": "SKU# ",
+    "year": "2026",
+    "size": "24 inches",
+    "description": "A charming hand painted acrylic of baby Krishna glancing over his shoulder with a sweet, mischievous smile, crowned with peacock feathers and adorned with layered jewellery against a glowing golden backdrop. <br> ✅ 100% Hand painted Acrylic on Round Canvas. <br> ✅ Rich detailing: peacock feather crown, beaded necklaces, gold earrings & flowing blue drapes. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting, especially Janmashtami. <br> Let the warmth of Nandlala's smile brighten your home. 🦚🙏.",
+    "medium": "Acrylic on Round Canvas",
+    "isSold": false,
+    },
+        {
+    "public_id": "🦚🐄 Krishna & His Divine Herd – Acrylic Painting 🐄🦚",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Cow_Original.jpg",
+    "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Cow_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531435/Krishna_Cow_Display.jpg",
+     ],
+    "title": "🦚🐄 Krishna & His Divine Herd – Acrylic Painting 🐄🦚",
+    "category": "Spiritual Paintings",
+    "price": 23000,
+    "originalPrice": 32000,
+    "sku": "SKU# ",
+    "year": "2026",
+    "size": "34 x 50 inches",
+    "description": "A large, richly coloured hand painted acrylic of Lord Krishna playing his flute with eyes closed in serene devotion, encircled by gentle cows and calves as a golden halo glow behind him. Set against a sunset sky, a riverside ghat and a graceful chhatri, the scene brings the peace of Vrindavan to life. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich detailing: peacock feather crown, purple flower garlands, gold jewellery, and adorned cows with tender little calves. <br> ✅ Perfect for pooja rooms, living rooms, meditation spaces & housewarming gifts. <br> May the flute's calm and Govinda's blessings fill your home. 🪈🦚🙏.",
+    "medium": "Acrylic on Canvas (Rolled)",
+    "isSold": false,
+    },
+        {
     "public_id": "🎶 Krishna's Serenade – Acrylic Painting 🎶",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277379/KrishnaJi_New.jpg",
+    "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277379/KrishnaJi_New.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531411/ShriKrishna_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531410/ShriKrishna_Display.jpg",
+     ],
     "title": "🎶 Krishna's Serenade – Acrylic Painting 🎶",
     "category": "Spiritual Paintings",
-    "price": 21999,
-    "originalPrice": 25999,
+    "price": 24000,
+    "originalPrice": 32000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 30 inches",
-    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br />✅ Rich detailing — floral crown, jewellery & flowing robes. <br /> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br /> Let the music of Krishna fill your space. 🪈🙏.",
-    "medium": "Acrylic on Canvas",
+    "description": "A close-up hand painted acrylic of Lord Krishna lost in his flute's melody, eyes closed in blissful devotion, adorned with roses, a peacock feather and a rudraksha mala against a warm, glowing backdrop. <br> ✅ 100% Hand painted Acrylic on Canvas. <br>✅ Rich detailing — floral crown, jewellery & flowing robes. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Let the music of Krishna fill your space. 🪈🙏.",
+    "medium": "Acrylic on Canvas - Framed",
     "isSold": false,
     },
-         {
+    {
     "public_id": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277378/Shreeji_New.jpg",
+      "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277378/Shreeji_New.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg",
+     ],
     "title": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
-    "price": 24999,
-    "originalPrice": 32999,
+    "price": 32000,
+    "originalPrice": 42000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "30 x 36 inches",
-    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Rich detailing — jewellery, drapery & peacock crown. <br /> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br /> Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
-    "medium": "Acrylic on Canvas",
+    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich detailing — jewellery, drapery & peacock crown. <br> ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
+    "medium": "Acrylic on Streched Canvas",
     "isSold": false
     },
-         {
+    {
     "public_id": "👑 Shrinathji – Divine Acrylic Painting 👑",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277378/LadooGopal_New.jpg",
+    "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1788277378/LadooGopal_New.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531435/Shreenath_Display.jpg",
+     ],
     "title": "👑 Shrinathji – Divine Acrylic Painting 👑",
     "category": "Spiritual Paintings",
-    "price": 3499,
-    "originalPrice": 5999,
+    "price": 3200,
+    "originalPrice": 5000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "12 x 16 inches",
-    "description": "A radiant hand painted acrylic of Lord Shrinathji, his deep blue face adorned with an ornate golden crown, peacock feather and layered pearl-and-gold jewellery, set against a warm terracotta backdrop with lotus blooms in full flower. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Intricate detailing — royal crown, jewellery & peacock feather. <br /> ✅ Rich, warm palette with striking traditional motifs. <br /> ✅ Perfect for pooja rooms, living rooms & devotional gifting. <br /> Divine grace, painted with devotion. 🪷🙏.",
-    "medium": "Acrylic on Canvas",
+    "description": "A radiant hand painted acrylic of Lord Shrinathji, his deep blue face adorned with an ornate golden crown, peacock feather and layered pearl-and-gold jewellery, set against a warm terracotta backdrop with lotus blooms in full flower. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Intricate detailing — royal crown, jewellery & peacock feather. <br> ✅ Rich, warm palette with striking traditional motifs. <br> ✅ Perfect for pooja rooms, living rooms & devotional gifting. <br> Divine grace, painted with devotion. 🪷🙏.",
+    "medium": "Acrylic on Streched Canvas",
     "isSold": false
     },
      {
@@ -51,9 +102,9 @@ export const IMAGES = [
     "originalPrice": 7999,
     "sku": "SKU# ",
     "year": "2025",
-    "size": "Customized",
-    "description": "A striking handpainted acrylic portrait of a woman in quiet profile, crowned by a majestic white dove with outstretched wings, surrounded by flitting red birds and lush green vines against a muted sage backdrop. A poetic blend of realism and symbolism. <br /> ✅ 100% Handpainted Acrylic on Canvas. <br /> ✅ Fine detailing — realistic portrait meets stylized birds. <br /> ✅ Soft, earthy palette with striking red accents. <br /> ✅ Perfect for living rooms, study spaces & contemporary art collectors. <br /> A quiet gaze, a soul set free. 🌿🎨",
-    "medium": "Acrylic on Canvas",
+    "size": "14 x 18 inches",
+    "description": "A striking handpainted acrylic portrait of a woman in quiet profile, crowned by a majestic white dove with outstretched wings, surrounded by flitting red birds and lush green vines against a muted sage backdrop. A poetic blend of realism and symbolism. <br> ✅ 100% Handpainted Acrylic on Canvas. <br> ✅ Fine detailing — realistic portrait meets stylized birds. <br> ✅ Soft, earthy palette with striking red accents. <br> ✅ Perfect for living rooms, study spaces & contemporary art collectors. <br> A quiet gaze, a soul set free. 🌿🎨",
+    "medium": "Acrylic on Canvas Board",
     "isSold": false
     },
     {
@@ -61,12 +112,12 @@ export const IMAGES = [
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1787921850/Cosmic_Krishna.jpg",
     "title": "🌌 Cosmic Krishna – Acrylic Painting 🌌",
     "category": "Spiritual Paintings",
-    "price": 14999,
-    "originalPrice": 21999,
+    "price": 15000,
+    "originalPrice": 23000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 36 inches",
-    "description": "A breathtaking handpainted acrylic of Lord Krishna playing his flute amidst a celestial sky, wrapped in swirling clouds with planets, stars and a glowing golden halo. A vision where divinity meets the infinite universe. <br /> ✨ 100% Handpainted Acrylic on Canvas. <br /> ✨ Stunning cosmic theme — galaxies, planets & celestial clouds. <br /> ✨ Rich gold detailing against deep blue tones. <br /> ✨ Perfect for living rooms, meditation spaces & statement walls. <br /> ✨ Where the divine meets the infinite. ✨🪈",
+    "description": "A breathtaking handpainted acrylic of Lord Krishna playing his flute amidst a celestial sky, wrapped in swirling clouds with planets, stars and a glowing golden halo. A vision where divinity meets the infinite universe. <br> ✨ 100% Handpainted Acrylic on Canvas. <br> ✨ Stunning cosmic theme — galaxies, planets & celestial clouds. <br> ✨ Rich gold detailing against deep blue tones. <br> ✨ Perfect for living rooms, meditation spaces & statement walls. <br> ✨ Where the divine meets the infinite. ✨🪈",
     "medium": "Acrylic on Canvas",
     "isSold": true
     },
@@ -94,7 +145,7 @@ export const IMAGES = [
     "sku": "SKU# ",
     "year": 2026,
     "size": "16 x 20 inches",
-    "description": "A striking hand painted acrylic of a vintage red lantern glowing warmly amidst a forest of blue-green trees and golden autumn leaves. Bold, expressive brushstrokes bring a cozy, nostalgic warmth against a cool woodland backdrop. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Rich contrast of warm reds & golds against cool blues & greens. <br /> ✅ Expressive, textured brushwork with striking detail. <br /> ✅ Perfect for living rooms, cozy corners & rustic-themed spaces. <br /> A glow that lights up any wall. 🍂🎨.",
+    "description": "A striking hand painted acrylic of a vintage red lantern glowing warmly amidst a forest of blue-green trees and golden autumn leaves. Bold, expressive brushstrokes bring a cozy, nostalgic warmth against a cool woodland backdrop. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich contrast of warm reds & golds against cool blues & greens. <br> ✅ Expressive, textured brushwork with striking detail. <br> ✅ Perfect for living rooms, cozy corners & rustic-themed spaces. <br> A glow that lights up any wall. 🍂🎨.",
     "medium": "Acrylic on Canvas",
     "isSold": false
   },
@@ -488,7 +539,7 @@ export const IMAGES = [
     "size": "12 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0030_The_Donut_nrdkab",
@@ -502,7 +553,7 @@ export const IMAGES = [
     "size": "10 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0031_The_Fortune_Cookie_agybql",
@@ -516,7 +567,7 @@ export const IMAGES = [
     "size": "12 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0032_The_Pretzel_gijzya",
@@ -530,7 +581,7 @@ export const IMAGES = [
     "size": "10 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0033_The_Popsicle_kncdbb",
@@ -544,7 +595,7 @@ export const IMAGES = [
     "size": "10 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0034_The_Coffee_Cup_ygfekk",
@@ -598,7 +649,7 @@ export const IMAGES = [
     "sku": "SKU# A0037",
     "year": 2026,
     "size": "10 x 10 inches",
-    "description": "A vivid close-up hand painted acrylic of a peony rose in full bloom, its ruffled crimson and pink petals unfolding around a golden center, set against a rich tapestry of emerald and teal foliage. Elegantly framed in black, ready to hang. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Bold, layered petals in rich pinks & reds. <br /> ✅ Comes ready-to-hang in a sleek black frame. <br /> ✅ Perfect for living rooms, bedrooms & romantic accent walls. <br /> A rose that never wilts. 🌿🎨",
+    "description": "A vivid close-up hand painted acrylic of a peony rose in full bloom, its ruffled crimson and pink petals unfolding around a golden center, set against a rich tapestry of emerald and teal foliage. Elegantly framed in black, ready to hang. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Bold, layered petals in rich pinks & reds. <br> ✅ Comes ready-to-hang in a sleek black frame. <br> ✅ Perfect for living rooms, bedrooms & romantic accent walls. <br> A rose that never wilts. 🌿🎨",
     "medium": "Acrylic on Canvas",
     "isSold": false
   },
@@ -682,10 +733,9 @@ export const IMAGES = [
     "sku": "SKU# A0043",
     "year": 2026,
     "size": "16 x 24 inches",
-    "description": "A masterpiece of calm. This hand painted acrylic artwork features a meditative Buddha rendered in mesmerizing shades of jade and emerald, set against a golden-green canvas alive with blooming lotus flowers — nature's own symbol of purity and rebirth. Every brushstroke breathes stillness. Every lotus petal whispers peace. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Rich texture, vibrant detail, gallery-quality finish. <br /> ✅ Radiates positive energy — ideal for living rooms, entryways, offices & meditation spaces. <br /> ✅ A timeless gift for housewarmings, weddings & special occasions. <br /> This isn't just wall art — it's a daily reminder to breathe, pause, and find your center. 🙏✨.",
+    "description": "A masterpiece of calm. This hand painted acrylic artwork features a meditative Buddha rendered in mesmerizing shades of jade and emerald, set against a golden-green canvas alive with blooming lotus flowers — nature's own symbol of purity and rebirth. Every brushstroke breathes stillness. Every lotus petal whispers peace. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Rich texture, vibrant detail, gallery-quality finish. <br> ✅ Radiates positive energy — ideal for living rooms, entryways, offices & meditation spaces. <br> ✅ A timeless gift for housewarmings, weddings & special occasions. <br> This isn't just wall art — it's a daily reminder to breathe, pause, and find your center. 🙏✨.",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
 
   {
@@ -700,8 +750,7 @@ export const IMAGES = [
     "size": "18 x 28 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0046_An_Abstract_Textured_Painting_rpeel0",
@@ -715,8 +764,7 @@ export const IMAGES = [
     "size": "18 x 18 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0047_The_Pyramids_of_Egypt_zh0ceg",
@@ -730,8 +778,7 @@ export const IMAGES = [
     "size": "12 x 16 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0048_The_Tree_Lined_Street_Painting_tmnzwt",
@@ -745,8 +792,7 @@ export const IMAGES = [
     "size": "18 x 24 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0049_The_Tree_Perspective_Painting_p0xwls",
@@ -760,8 +806,7 @@ export const IMAGES = [
     "size": "16 x 20 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "isSold": false,
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0050_The_Sunflower_Painting_ec69vd",
@@ -773,9 +818,9 @@ export const IMAGES = [
     "sku": "SKU# A0050",
     "year": 2026,
     "size": "24 inch Diameter",
-    "description": "A bold, close-up hand painted acrylic of blooming sunflowers rendered in vivid golds and warm browns, set against a striking electric-blue backdrop with hints of magenta. Loose, expressive brushstrokes give this piece an energetic, sun-drenched feel on a unique circular canvas. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Vibrant palette — sunny yellows against vivid blues. <br /> ✅ Unique round canvas format — a bold, modern statement piece. <br /> ✅ Perfect for living rooms, kitchens & sunlit corners. <br /> A burst of sunshine for any wall. ☀️🎨",            
+    "description": "A bold, close-up hand painted acrylic of blooming sunflowers rendered in vivid golds and warm browns, set against a striking electric-blue backdrop with hints of magenta. Loose, expressive brushstrokes give this piece an energetic, sun-drenched feel on a unique circular canvas. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Vibrant palette — sunny yellows against vivid blues. <br> ✅ Unique round canvas format — a bold, modern statement piece. <br> ✅ Perfect for living rooms, kitchens & sunlit corners. <br> A burst of sunshine for any wall. ☀️🎨",            
     "medium": "Acrylic on Stretched Round Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0051_The_Spring_Lily_Painting_tjmqey",
@@ -787,9 +832,9 @@ export const IMAGES = [
     "sku": "SKU# A0051",
     "year": 2026,
     "size": "24 inch Diameter",
-    "description": "A striking hand painted acrylic of a white lily in full bloom, rendered in bold contrasting strokes against a deep, moody backdrop of teal and forest greens. The vivid pops of yellow and crimson at its center bring the flower to life on this eye-catching circular canvas. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Unique round canvas format — a modern statement piece. <br /> ✅ Bold, vibrant palette that pops on any wall. <br /> ✅ Perfect for living rooms, entryways & contemporary spaces. <br /> A fresh, artistic bloom that never fades. 🌿🎨.",
+    "description": "A striking hand painted acrylic of a white lily in full bloom, rendered in bold contrasting strokes against a deep, moody backdrop of teal and forest greens. The vivid pops of yellow and crimson at its center bring the flower to life on this eye-catching circular canvas. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Unique round canvas format — a modern statement piece. <br> ✅ Bold, vibrant palette that pops on any wall. <br> ✅ Perfect for living rooms, entryways & contemporary spaces. <br> A fresh, artistic bloom that never fades. 🌿🎨.",
     "medium": "Acrylic on Stretched Round Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0052_The_Ranunculus_Bouquete_gofc69",
@@ -803,7 +848,7 @@ export const IMAGES = [
     "size": "30 x 30 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0053_Vibrant_Tree_Painting_1_papeds",
@@ -1041,7 +1086,7 @@ export const IMAGES = [
     "size": "12 x 12 inches",
     "description": "Acrylic on Stretched Canvas",
     "medium": "Acrylic on Stretched Canvas",
-    "framed": false
+    "isSold": false
   },
   {
     "public_id": "A0070_Birdy_in_Snowfall_f8pjzd",
@@ -1109,9 +1154,9 @@ export const IMAGES = [
     "sku": "SKU# B001",
     "year": 2026,
     "size": "12 x 16 inches",
-    "description": "A radiant hand painted acrylic of a golden Buddha in deep meditation, surrounded by pure white lotus blooms and lush greenery, set against a bold backdrop of crimson red and cobalt blue. A striking fusion of stillness and vibrant colour. <br /> ✅ 100% Hand painted Acrylic on Canvas. <br /> ✅ Bold, expressive palette — gold, red & blue in harmony. <br /> ✅ Rich detailing — lotus blooms, drapery & serene expression. <br /> ✅ Perfect for living rooms, meditation spaces & statement walls. <br /> Golden calm for a colourful world. 🪷🙏",
+    "description": "A radiant hand painted acrylic of a golden Buddha in deep meditation, surrounded by pure white lotus blooms and lush greenery, set against a bold backdrop of crimson red and cobalt blue. A striking fusion of stillness and vibrant colour. <br> ✅ 100% Hand painted Acrylic on Canvas. <br> ✅ Bold, expressive palette — gold, red & blue in harmony. <br> ✅ Rich detailing — lotus blooms, drapery & serene expression. <br> ✅ Perfect for living rooms, meditation spaces & statement walls. <br> Golden calm for a colourful world. 🪷🙏",
     "medium": "Acrylic on Canvas",
-    "framed": false
+    "isSold": false
   }
 ];
 
