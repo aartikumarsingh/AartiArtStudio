@@ -2,7 +2,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
 import {
-  ShoppingBag, Heart, Share2, ChevronLeft, Truck, Shield,
+  ShoppingBag, Heart, Share2, ChevronLeft, ChevronRight, Truck, Shield,
   RotateCcw, MessageCircle, Minus, Plus, Package,
   Palette, Ruler, Calendar, Info, Tag, Award
 } from 'lucide-react';
@@ -15,11 +15,13 @@ export default function ProductDetail() {
   const [loading, setLoading] = useState(true);
   const [quantity, setQuantity] = useState(1);
   const [addedToCart, setAddedToCart] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const { addToCart } = useCart();
 
   useEffect(() => {
     window.scrollTo(0, 0);
     setLoading(true);
+    setCurrentImageIndex(0);
     setTimeout(() => {
       const found = images.find(img => img.public_id === id);
       if (found) {
@@ -79,6 +81,20 @@ export default function ProductDetail() {
     );
   }
 
+  // Support a product.images array; fall back to the single product.url
+  // so existing products with only one photo keep working unchanged.
+  const productImages = (product?.images && product.images.length > 0)
+    ? product.images
+    : (product?.url ? [product.url] : []);
+
+  const goToPrevImage = () => {
+    setCurrentImageIndex((prev) => (prev === 0 ? productImages.length - 1 : prev - 1));
+  };
+
+  const goToNextImage = () => {
+    setCurrentImageIndex((prev) => (prev === productImages.length - 1 ? 0 : prev + 1));
+  };
+
   // Calculate discount percentage if originalPrice exists
   const discountPercentage = product.originalPrice
     ? Math.round(((product.originalPrice - product.price) / product.originalPrice) * 100)
@@ -104,11 +120,33 @@ export default function ProductDetail() {
               <div className="space-y-4">
                 <div className="relative rounded-2xl overflow-hidden shadow-lg bg-white border border-gray-200">
                   <img
-                    src={product.url}
-                    alt={product.title}
+                    src={productImages[currentImageIndex]}
+                    alt={`${product.title} - image ${currentImageIndex + 1}`}
                     className="w-full max-w-[500px] mx-auto h-[400px] md:h-[500px] lg:h-[550px] object-contain bg-gray-100"
-                    // ✅ Fixed width: max-w-[500px] with object-contain
                   />
+
+                  {/* Prev/Next arrows - only shown when there is more than one image */}
+                  {productImages.length > 1 && (
+                    <>
+                      <button
+                        onClick={goToPrevImage}
+                        aria-label="Previous image"
+                        className="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-black hover:text-white text-black rounded-full flex items-center justify-center shadow-md transition-colors"
+                      >
+                        <ChevronLeft size={20} />
+                      </button>
+                      <button
+                        onClick={goToNextImage}
+                        aria-label="Next image"
+                        className="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-black hover:text-white text-black rounded-full flex items-center justify-center shadow-md transition-colors"
+                      >
+                        <ChevronRight size={20} />
+                      </button>
+                      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 bg-black/60 text-white text-xs px-3 py-1 rounded-full">
+                        {currentImageIndex + 1} / {productImages.length}
+                      </div>
+                    </>
+                  )}
 
                   {/* Badges */}
                   <div className="absolute top-4 left-4 flex flex-col gap-2">
