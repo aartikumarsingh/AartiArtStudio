@@ -342,7 +342,7 @@ export default function ProductDetail() {
                       <img
                         src={item.url}
                         alt={item.title}
-                        className="w-full h-40 object-cover"
+                        className="w-full aspect-[3/4] object-contain bg-black"
                       />
                       {item.isSold && (
                         <div className="absolute top-2 right-2 bg-red-500 text-white text-xs px-2 py-1 rounded-full">
