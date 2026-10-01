@@ -117,7 +117,7 @@ export default function ContactUs() {
                     <p className="text-white/80">
                       Gulmohar Residency,<br />
                       Krishna Nagar, Moula Ali,<br />
-                      Hyderabad - 500040, Telangana
+                      Hyderabad - 500040, Telangana, INDIA
                     </p>
                   </div>
                 </div>
@@ -142,8 +142,8 @@ export default function ContactUs() {
                   <Clock size={24} className="text-yellow-300 shrink-0" />
                   <div>
                     <h3 className="font-['Poppins'] font-semibold text-white mb-1">Studio Hours</h3>
-                    <p className="text-white/80">Tuesday - Sunday: 10AM - 7PM</p>
-                    <p className="text-white/60 text-sm">Monday: Closed</p>
+                    <p className="text-white/80">Monday - Saturday: 10 am - 6 pm</p>
+                    <p className="text-white/60 text-sm">Sunday: Closed</p>
                   </div>
                 </div>
               </div>
