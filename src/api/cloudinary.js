@@ -1,13 +1,13 @@
 // Yeh aapki saari images ka data hai - direct load, no cache
 export const IMAGES = [
         {
-    "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
+    "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
     "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg",
      ],
-    "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚
+    "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
     "price": 5100,
     "originalPrice": 7500,
@@ -29,8 +29,8 @@ export const IMAGES = [
      ],
     "title": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
-    "price": 32000,
-    "originalPrice": 42000,
+    "price": 28000,
+    "originalPrice": 36000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "30 x 36 inches",
@@ -48,8 +48,8 @@ export const IMAGES = [
      ],
     "title": "🎶 Krishna's Serenade – Acrylic Painting 🎶",
     "category": "Spiritual Paintings",
-    "price": 32000,
-    "originalPrice": 42000,
+    "price": 28000,
+    "originalPrice": 36000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "24 x 30 inches",
@@ -67,8 +67,8 @@ export const IMAGES = [
      ],
     "title": "🦚🐄 Krishna & His Divine Herd – Acrylic Painting 🐄🦚",
     "category": "Spiritual Paintings",
-    "price": 36000,
-    "originalPrice": 45000,
+    "price": 32000,
+    "originalPrice": 41000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "34 x 50 inches",
@@ -87,8 +87,8 @@ export const IMAGES = [
      ],
     "title": "✨ Krishna's Divine Radiance – Acrylic Painting ✨",
     "category": "Spiritual Paintings",
-    "price": 36000,
-    "originalPrice": 45000,
+    "price": 32000,
+    "originalPrice": 41000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "34 x 50 inches",
@@ -106,8 +106,8 @@ export const IMAGES = [
      ],
     "title": "🧩 Earth Geometry – Abstract Oil Painting 🧩",
     "category": "Abstract Paintings",
-    "price": 10000,
-    "originalPrice": 15000,
+    "price": 15000,
+    "originalPrice": 23000,
     "sku": "SKU# ",
     "year": "2026",
     "size": "18 x 24 inches",
@@ -220,7 +220,7 @@ export const IMAGES = [
      ],
     "title": "👑 Shrinathji – Divine Acrylic Painting 👑",
     "category": "Spiritual Paintings",
-    "price": 3200,
+    "price": 2800,
     "originalPrice": 5000,
     "sku": "SKU# ",
     "year": "2026",
