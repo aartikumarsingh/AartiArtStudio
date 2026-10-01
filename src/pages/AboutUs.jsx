@@ -6,7 +6,7 @@ export default function About() {
       {/* Hero */}
       <div className="bg-[#E14749] pt-16 pb-10">
         <div className="container-custom text-center text-white">
-          <h1 className="font-montserrat text-4xl md:text-6xl font-bold mb-4">ABOUT</h1>
+          <h1 className="font-montserrat text-4xl md:text-6xl font-bold mb-4">ABOUT THE ARTIST</h1>
           <p className="font-poppins text-xl md:text-2xl text-white/90 max-w-2xl mx-auto">
             Aarti Kumar Singh
           </p>
@@ -21,18 +21,10 @@ export default function About() {
             {/* Left: Story text with proper left margin */}
             <div className="prose prose-lg md:pl-4 lg:pl-6 order-2 md:order-1">
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
-                AARTI ART STUDIO was founded in 2016 by Aarti Kumar Singh, a passionate artist
-                with a vision to bring beautiful, original artwork to collectors and art lovers.
-                Based in Hyderabad, the studio specializes in creating soulful paintings that
-                blend traditional techniques with contemporary expressions. 
+              An accomplished artist and educator, Aarti Kumar Singh began her creative journey in 2012 while living in the United States. After mastering self-taught techniques in oils and acrylics inspired by iconic masters, she returned to India to formalize her expertise. Holding a Diploma in Fine Arts alongside a Diploma in Art Teacher’s Training, Aarti has expanded her repertoire to seamlessly blend technical precision with creative expression.
               </p>
               <p className="font-poppins text-gray-700 leading-relaxed mb-6">
-              An accomplished artist and educator, Aarti began her creative journey in 2012 while living in the United States. After mastering self-taught techniques in oils and acrylics inspired by iconic artists, she returned to India to formalise her expertise. Holding a Diploma in Fine Arts alongside a Diploma in Teacher’s Training, Aarti has expanded her repertoire to seamlessly blend technical precision with creative expression in her current portfolio.
-              </p>
-              <p className="font-poppins text-gray-700 leading-relaxed mb-6">
-                Each artwork in our collection is original, handcrafted with care and attention
-                to detail. From vibrant landscapes to spiritual pieces, every painting tells a
-                unique story and brings emotion to any space.
+              In 2017, she founded AARTI ART STUDIO with a vision to bring beautiful, original artwork to collectors and art lovers worldwide. Based in Hyderabad, the studio specializes in creating soulful paintings that bridge traditional techniques and contemporary expressions. Every handcrafted piece in the collection is an original labour of love, meticulously detailed to ensure that from vibrant landscapes to serene spiritual pieces, each painting tells a unique story and breathes emotion into any space.
               </p>
             </div>
 
@@ -58,7 +50,7 @@ export default function About() {
                   <p className="font-poppins text-sm text-gray-600">
                     Gulmohar Residency, <br />
                     Krishna Nagar, Beside NFC, Moula Ali,<br />
-                    Hyderabad - 500040
+                    Hyderabad - 500040, Telangana, INDIA
                   </p>
                 </div>
                 <div className="flex items-center gap-3">
@@ -75,7 +67,7 @@ export default function About() {
             <div className="bg-gray-50 p-6">
               <h3 className="font-montserrat text-lg font-bold text-gray-900 mb-4">HOURS</h3>
               <div className="space-y-2">
-                <p className="font-poppins text-sm text-gray-600">Monday - Saturday: 10AM - 7PM</p>
+                <p className="font-poppins text-sm text-gray-600">Monday - Saturday: 10 am - 6 pm</p>
                 <p className="font-poppins text-sm text-gray-600">Sunday: Closed</p>
               </div>
               <a
