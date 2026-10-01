@@ -61,8 +61,8 @@ export default function Home() {
             AARTI ART STUDIO
           </h1>
           <p className="text-xl md:text-2xl text-gray-700 mb-8 max-w-3xl mx-auto">
-            Welcome into my World! <br />
-            Authentic, Hand-painted Masterpieces crafted to breathe life and lasting beauty into your everyday environment. <br />
+            Welcome to my World! <br /><br />
+            Authentic, Hand-painted Masterpieces crafted to breathe LIFE into your Everyday Space. <br /><br />
             Every Canvas tells a Unique Story.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -85,7 +85,7 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {images.slice(0, 8).map((item, index) => (
+            {images.slice(0, 9).map((item, index) => (
               <div
                 key={item.public_id}
                 className="group"
@@ -276,7 +276,7 @@ export default function Home() {
             <div>
               <h3 className="text-xl font-['Poppins'] font-bold mb-4">AARTI ART STUDIO</h3>
               <p className="text-gray-600 text-sm">
-                Creating beautiful artwork that brings joy and inspiration to your space since 2014.
+                Creating beautiful artwork that brings joy and inspiration to your space since 2017.
               </p>
             </div>
             <div>
@@ -298,14 +298,14 @@ export default function Home() {
             <div>
               <h4 className="font-['Poppins'] font-semibold mb-4">Contact Info</h4>
               <ul className="space-y-2 text-gray-600 text-sm">
-                <li>📍 Gulmohar Residency, Krishna Nagar, Moula Ali, Hyderabad- 500040, Telengana</li>
+                <li>📍 Gulmohar Residency, Krishna Nagar, Moula Ali, Hyderabad- 500040, Telengana, INDIA</li>
                 <li>📞 +91 80195 74565</li>
                 <li>✉️ aartikumarsingh555@gmail.com</li>
               </ul>
             </div>
           </div>
           <div className="border-t border-gray-200 mt-8 pt-8 text-center text-gray-600 text-sm">
-            <p className="mb-2">&copy; 2024 AARTI ART STUDIO. All rights reserved.</p>
+            <p className="mb-2">&copy; 2026 AARTI ART STUDIO. All rights reserved.</p>
             <div className="flex justify-center gap-6 text-xs">
               <Link to="/privacy-policy" className="hover:text-black transition-colors">Privacy</Link>
               <Link to="/terms-conditions" className="hover:text-black transition-colors">Terms</Link>
