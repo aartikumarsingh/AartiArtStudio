@@ -1,113 +1,138 @@
 import { Link } from 'react-router-dom';
-import { Users, Heart, Target, Eye, Award, Clock } from 'lucide-react';
+import { Shield, Database, Cookie, UserCheck, Share2, Lock, Mail } from 'lucide-react';
 
-export default function AboutUs() {
+export default function PrivacyPolicy() {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] pt-24 pb-16">
+    <div className="w-full min-h-screen bg-white pt-24 pb-16">
       <div className="w-full max-w-4xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white/10 backdrop-blur-md rounded-full mb-4 border border-white/20">
-            <Users size={40} className="text-yellow-300" />
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-gray-50 rounded-full mb-4 border border-gray-200">
+            <Shield size={40} className="text-black" />
           </div>
-          <h1 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-white mb-4">
-            About Us
+          <h1 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-black mb-4">
+            Privacy Policy
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
-            Discover the story behind AARTI ART STUDIO
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+            How we collect, use, and protect your personal information
           </p>
         </div>
 
         {/* Content Card */}
-        <div className="bg-white/10 backdrop-blur-md rounded-3xl p-6 md:p-10 border border-white/20 text-white/90 space-y-8">
-          
-          {/* Our Story */}
+        <div className="bg-gray-50 rounded-3xl p-6 md:p-10 border border-gray-200 text-gray-700 space-y-8">
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300 flex items-center gap-2">
-              <Heart size={24} />
-              Our Story
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Shield size={24} />
+              Introduction
             </h2>
             <p className="leading-relaxed">
-              AARTI ART STUDIO was founded in 2014 by Aarti Kumar Singh, a passionate artist from the holy city of Mathura. What began as a small studio in a humble space has now grown into a renowned art gallery representing some of the most talented artists from around the world.
+              AARTI ART STUDIO ("we," "us," or "our") respects your privacy and is committed to protecting the personal information you share with us through aartiartstudio.com (the "Site"). This Privacy Policy explains what information we collect, how we use it, and the choices you have.
             </p>
             <p className="leading-relaxed">
-              With a deep connection to the rich cultural heritage of Braj, our studio specializes in creating soulful artwork that blends traditional Indian art forms with contemporary expressions. Each piece in our collection tells a story - of devotion, of nature, of the divine love of Radha-Krishna.
+              By using our Site, you agree to the collection and use of information in accordance with this policy.
             </p>
           </section>
 
-          {/* Mission & Vision */}
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-white/5 p-6 rounded-xl">
-              <Target size={32} className="text-yellow-300 mb-4" />
-              <h3 className="text-xl font-['Poppins'] font-bold text-white mb-2">Our Mission</h3>
-              <p className="text-white/80">
-                To make original art accessible to everyone by providing high-quality, affordable paintings that bring beauty, emotion, and inspiration into homes and spaces around the world.
-              </p>
-            </div>
-            <div className="bg-white/5 p-6 rounded-xl">
-              <Eye size={32} className="text-yellow-300 mb-4" />
-              <h3 className="text-xl font-['Poppins'] font-bold text-white mb-2">Our Vision</h3>
-              <p className="text-white/80">
-                To become the most trusted destination for art lovers worldwide, creating a global community where artists and collectors connect through the universal language of creativity.
-              </p>
-            </div>
-          </div>
-
-          {/* The Artist */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">The Artist</h2>
-            <div className="flex flex-col md:flex-row gap-6 items-center">
-              <div className="w-48 h-48 rounded-full bg-gradient-to-r from-yellow-400 to-pink-400 p-1">
-                <div className="w-full h-full rounded-full bg-gradient-to-br from-[#667eea] to-[#764ba2] flex items-center justify-center">
-                  <span className="text-6xl">🎨</span>
-                </div>
-              </div>
-              <div className="flex-1">
-                <h3 className="text-xl font-['Poppins'] font-bold text-white mb-2">Aarti Kumar Singh</h3>
-                <p className="text-white/80 leading-relaxed">
-                  Aarti Kumar Singh, a Master of Fine Arts from Banaras Hindu University, has been creating art for over a decade. Her journey began at the banks of River Yamuna, drawing inspiration from the divine love of Radha-Krishna and the rich cultural heritage of Braj region. Her work has been exhibited in prestigious galleries across India, including Lalit Kala Akademi, National Gallery of Modern Art, and India Habitat Centre.
-                </p>
-              </div>
-            </div>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Database size={24} />
+              Information We Collect
+            </h2>
+            <p className="leading-relaxed">
+              When you browse our Site, contact us, or place an order, we may collect the following types of information:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li><span className="font-semibold">Contact details</span> — your name, email address, phone number, and shipping address, when you submit a contact form or place an order.</li>
+              <li><span className="font-semibold">Order information</span> — the artworks you view, add to cart, or purchase, and related transaction details.</li>
+              <li><span className="font-semibold">Communication records</span> — messages you send us via our contact form or WhatsApp.</li>
+              <li><span className="font-semibold">Usage data</span> — general information about how you browse the Site, such as pages visited, collected automatically through standard web technologies.</li>
+            </ul>
           </section>
 
-          {/* Achievements */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300 flex items-center gap-2">
-              <Award size={24} />
-              Achievements
-            </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <div className="bg-white/5 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-yellow-300">500+</p>
-                <p className="text-white/80">Artworks Created</p>
-              </div>
-              <div className="bg-white/5 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-yellow-300">25+</p>
-                <p className="text-white/80">Exhibitions</p>
-              </div>
-              <div className="bg-white/5 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-yellow-300">200+</p>
-                <p className="text-white/80">Happy Collectors</p>
-              </div>
-              <div className="bg-white/5 p-4 rounded-lg">
-                <p className="text-3xl font-bold text-yellow-300">10+</p>
-                <p className="text-white/80">Years of Excellence</p>
-              </div>
-            </div>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">How We Use Your Information</h2>
+            <p className="leading-relaxed">We use the information we collect to:</p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Process and fulfil your orders, including shipping and delivery</li>
+              <li>Respond to your enquiries and provide customer support</li>
+              <li>Send order confirmations and updates, including via WhatsApp when you choose to contact us that way</li>
+              <li>Improve our Site, products, and the overall shopping experience</li>
+              <li>Send you updates about new artworks or offers, only if you have opted in via our newsletter</li>
+            </ul>
           </section>
 
-          {/* Studio Info */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300 flex items-center gap-2">
-              <Clock size={24} />
-              Studio Information
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Cookie size={24} />
+              Cookies
             </h2>
-            <div className="bg-white/5 p-4 rounded-lg space-y-2">
-              <p><span className="font-semibold">📍 Address:</span> C-807, Mayflower grand, Nacharam - Mallapur, Hyderabad- 500076</p>
-              <p><span className="font-semibold">📞 Phone:</span> +91 80195 74565</p>
-              <p><span className="font-semibold">✉️ Email:</span> aartikumarsingh555@gmail.com</p>
-              <p><span className="font-semibold">🕒 Studio Hours:</span> Tuesday - Sunday: 10AM - 7PM | Monday: Closed</p>
+            <p className="leading-relaxed">
+              Our Site may use cookies and similar technologies to remember your preferences, such as items in your shopping cart, and to understand how visitors use the Site. You can choose to disable cookies through your browser settings, though some features of the Site may not function properly as a result.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Share2 size={24} />
+              Sharing of Information
+            </h2>
+            <p className="leading-relaxed">
+              We do not sell, rent, or trade your personal information to third parties. We may share your information only in the following circumstances:
+            </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>With shipping and delivery partners, solely to fulfil and deliver your order</li>
+              <li>With service providers who help us operate the Site (such as hosting or image storage providers), who are only permitted to use your data to provide that service</li>
+              <li>When required by law, or to protect our legal rights</li>
+            </ul>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Lock size={24} />
+              Data Security
+            </h2>
+            <p className="leading-relaxed">
+              We take reasonable measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of transmission over the internet is completely secure, and we cannot guarantee absolute security.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <UserCheck size={24} />
+              Your Rights
+            </h2>
+            <p className="leading-relaxed">
+              You have the right to access, correct, or request deletion of the personal information we hold about you. If you would like to exercise any of these rights, or have questions about how your data is handled, please contact us using the details below.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Children's Privacy</h2>
+            <p className="leading-relaxed">
+              Our Site is not directed at children under the age of 13, and we do not knowingly collect personal information from children.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Changes to This Policy</h2>
+            <p className="leading-relaxed">
+              We may update this Privacy Policy from time to time. Any changes will be posted on this page, and continued use of the Site after changes are posted constitutes your acceptance of the revised policy.
+            </p>
+          </section>
+
+          <section className="space-y-4">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
+              <Mail size={24} />
+              Contact Us
+            </h2>
+            <p className="leading-relaxed">
+              If you have any questions about this Privacy Policy or how your information is handled, please contact us at:
+            </p>
+            <div className="bg-white p-4 rounded-lg border border-gray-200">
+              <p className="font-semibold text-black">AARTI ART STUDIO</p>
+              <p>Gulmohar Residency, Krishna Nagar, Near NFC, Moula Ali, Hyderabad- 500040, Telangana, INDIA</p>
+              <p>Email: aartikumarsingh555@gmail.com</p>
+              <p>Phone: +91 80195 74565</p>
             </div>
           </section>
         </div>
