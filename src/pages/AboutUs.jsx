@@ -29,12 +29,12 @@ export default function About() {
             </div>
 
             {/* Right: Artist photo */}
-            <div className="order-1 md:order-2 flex justify-center md:justify-end">
-              <div className="w-full max-w-sm rounded-2xl overflow-hidden shadow-lg border border-gray-200">
+            <div className="order-1 md:order-2">
+              <div className="w-full aspect-[2/3] rounded-2xl overflow-hidden shadow-lg border border-gray-200">
                 <img
                   src="/images/artist-profile.jpeg"
                   alt="Aarti Kumar Singh, founder of Aarti Art Studio"
-                  className="w-full h-auto object-cover"
+                  className="w-full h-full object-cover"
                 />
               </div>
             </div>
