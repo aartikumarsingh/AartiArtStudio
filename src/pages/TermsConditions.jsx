@@ -3,27 +3,25 @@ import { FileText, Scale, Gavel, AlertCircle } from 'lucide-react';
 
 export default function TermsConditions() {
   return (
-    <div className="w-full min-h-screen bg-gradient-to-br from-[#667eea] to-[#764ba2] pt-24 pb-16">
+    <div className="w-full min-h-screen bg-white pt-24 pb-16">
       <div className="w-full max-w-4xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center justify-center w-20 h-20 bg-white/10 backdrop-blur-md rounded-full mb-4 border border-white/20">
-            <FileText size={40} className="text-yellow-300" />
+          <div className="inline-flex items-center justify-center w-20 h-20 bg-gray-50 rounded-full mb-4 border border-gray-200">
+            <FileText size={40} className="text-black" />
           </div>
-          <h1 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-white mb-4">
+          <h1 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-black mb-4">
             Terms & Conditions
           </h1>
-          <p className="text-white/80 text-lg max-w-2xl mx-auto">
+          <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Please read these terms carefully before using our website
           </p>
         </div>
 
         {/* Content Card */}
-        <div className="bg-white/10 backdrop-blur-md rounded-3xl p-6 md:p-10 border border-white/20 text-white/90 space-y-8">
-          
-          {/* Introduction */}
+        <div className="bg-gray-50 rounded-3xl p-6 md:p-10 border border-gray-200 text-gray-700 space-y-8">
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300 flex items-center gap-2">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
               <Scale size={24} />
               Introduction
             </h2>
@@ -35,20 +33,18 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          {/* Intellectual Property */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Intellectual Property</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Intellectual Property</h2>
             <p className="leading-relaxed">
               The Service and its original content, features, and functionality are and will remain the exclusive property of AARTI ART STUDIO and its licensors. The Service is protected by copyright, trademark, and other laws of both India and foreign countries.
             </p>
             <p className="leading-relaxed">
-              Our trademarks and trade dress may not be used in connection with any product or service without the prior written consent of AARTI ART STUDIO.
+              Our trademarks and trade Artwork may not be used in connection with any product or service without the prior written consent of AARTI ART STUDIO.
             </p>
           </section>
 
-          {/* Purchases */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Purchases</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Purchases</h2>
             <p className="leading-relaxed">
               If you wish to purchase any product or service made available through the Service ("Purchase"), you may be asked to supply certain information relevant to your Purchase including, without limitation, your credit card number, the expiration date of your credit card, your billing address, and your shipping information.
             </p>
@@ -57,9 +53,8 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          {/* Pricing */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Pricing Information</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Pricing Information</h2>
             <p className="leading-relaxed">
               We strive to ensure that all pricing information on the website is accurate. However, errors may occur. If we discover an error in the price of any product you have ordered, we will inform you as soon as possible and give you the option of reconfirming your order at the correct price or canceling it.
             </p>
@@ -68,31 +63,31 @@ export default function TermsConditions() {
             </p>
           </section>
 
-          {/* Shipping and Delivery */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Shipping and Delivery</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Shipping and Delivery</h2>
             <p className="leading-relaxed">
-              We offer free shipping on all orders above ₹999 within India. Orders are typically processed within 2-3 business days and delivered within 5-7 business days depending on your location.
+              We offer free shipping on all orders within India. Orders are typically processed within 2-3 business days and delivered within 5-7 business days depending on your location.
             </p>
             <p className="leading-relaxed">
               International shipping rates and delivery times vary by destination. Please contact us for specific shipping quotes.
             </p>
           </section>
 
-          {/* Returns and Refunds */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Returns and Refunds</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Returns and Refunds</h2>
             <p className="leading-relaxed">
-              We have a 7-day return policy, which means you have 7 days after receiving your item to request a return. To be eligible for a return, your item must be in the same condition that you received it, unworn or unused, with tags, and in its original packaging.
+              All sales are final. Since each artwork is an original, one-of-a-kind, handcrafted piece, we do not accept returns or offer refunds for a change of mind once an order has been placed and shipped.
+            </p>
+            <p className="leading-relaxed font-semibold">
+              The only exception to this policy is if your artwork arrives damaged in transit, or if you receive an item different from what you ordered. In either of these cases, please contact us at aartikumarsingh555@gmail.com within 48 hours of delivery, along with photographs of the artwork and its packaging, and we will arrange a replacement or a full refund.
             </p>
             <p className="leading-relaxed">
-              To start a return, you can contact us at aartikumarsingh555@gmail.com. If your return is accepted, we'll send you instructions on how and where to send your package. Items sent back to us without first requesting a return will not be accepted.
+              We encourage you to carefully review each artwork's photographs, description, size, and medium before purchasing, or to reach out to us with any questions beforehand. If you are interested in a custom piece, we are happy to discuss your requirements in detail before beginning work, to ensure the final piece matches your expectations.
             </p>
           </section>
 
-          {/* Limitation of Liability */}
-          <section className="space-y-4 bg-red-400/10 p-6 rounded-xl border border-red-400/30">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300 flex items-center gap-2">
+          <section className="space-y-4 bg-red-50 p-6 rounded-xl border border-red-200">
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black flex items-center gap-2">
               <Gavel size={24} />
               Limitation of Liability
             </h2>
@@ -107,23 +102,21 @@ export default function TermsConditions() {
             </ul>
           </section>
 
-          {/* Changes to Terms */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Changes to Terms</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Changes to Terms</h2>
             <p className="leading-relaxed">
               We reserve the right, at our sole discretion, to modify or replace these Terms at any time. By continuing to access or use our Service after those revisions become effective, you agree to be bound by the revised terms.
             </p>
           </section>
 
-          {/* Contact */}
           <section className="space-y-4">
-            <h2 className="text-2xl font-['Poppins'] font-bold text-yellow-300">Contact Us</h2>
+            <h2 className="text-2xl font-['Poppins'] font-bold text-black">Contact Us</h2>
             <p className="leading-relaxed">
               If you have any questions about these Terms, please contact us at:
             </p>
-            <div className="bg-white/5 p-4 rounded-lg">
-              <p className="font-semibold">AARTI ART STUDIO</p>
-              <p>C-807, Mayflower grand, Nacharam - Mallapur, Hyderabad- 500076</p>
+            <div className="bg-white p-4 rounded-lg border border-gray-200">
+              <p className="font-semibold text-black">AARTI ART STUDIO</p>
+              <p>Gulmohar Residency, Krishna Nagar, Beside NFC, Moula Ali, Hyderabad-500040, Telangana, INDIA</p>
               <p>Email: aartikumarsingh555@gmail.com</p>
               <p>Phone: +91 80195 74565</p>
             </div>
