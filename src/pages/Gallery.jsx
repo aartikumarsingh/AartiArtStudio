@@ -1,15 +1,17 @@
 import { useImages } from '../hooks/useImages';
-import { ShoppingBag } from 'lucide-react';
+import { ShoppingBag, X } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { useCart } from '../context/CartContext';
-import { useSearchParams, Link } from 'react-router-dom';
+import { useSearchParams, useNavigate, Link } from 'react-router-dom';
 
 export default function Gallery() {
   const { images, loading } = useImages();
   const { addToCart } = useCart();
   const [searchParams] = useSearchParams();
+  const navigate = useNavigate();
   const [activeFilter, setActiveFilter] = useState('all');
   const categoryFromUrl = searchParams.get('category');
+  const searchQuery = searchParams.get('search') || '';
 
   // Get unique categories
   const categories = ['all', ...new Set(images.map(img => img.category))];
@@ -20,9 +22,14 @@ export default function Gallery() {
     }
   }, [categoryFromUrl]);
 
-  const filtered = activeFilter === 'all'
-    ? images
-    : images.filter(img => img.category === activeFilter);
+  const filtered = images.filter((img) => {
+    const matchesCategory = activeFilter === 'all' || img.category === activeFilter;
+    const q = searchQuery.trim().toLowerCase();
+    const matchesSearch = !q ||
+      img.title?.toLowerCase().includes(q) ||
+      img.category?.toLowerCase().includes(q);
+    return matchesCategory && matchesSearch;
+  });
 
   const handleAddToCart = (item, e) => {
     e.preventDefault();
@@ -44,8 +51,8 @@ export default function Gallery() {
     return (
       <div className="w-full min-h-screen bg-white pt-20">
         <div className="w-full px-4 py-20">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-            {[1,2,3,4,5,6,7,8].map(n => (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+            {[1,2,3,4,5,6].map(n => (
               <div key={n} className="bg-gray-100 h-80 rounded-xl animate-pulse"></div>
             ))}
           </div>
@@ -65,6 +72,20 @@ export default function Gallery() {
           <p className="text-gray-600 text-lg max-w-2xl mx-auto">
             Explore our collection of {images.length} original artworks
           </p>
+          {searchQuery && (
+            <div className="mt-4 inline-flex items-center gap-2 bg-gray-50 border border-gray-200 rounded-full px-4 py-2 text-sm text-gray-700">
+              <span>
+                Showing {filtered.length} result{filtered.length !== 1 ? 's' : ''} for "<span className="font-semibold text-black">{searchQuery}</span>"
+              </span>
+              <button
+                onClick={() => navigate('/gallery')}
+                aria-label="Clear search"
+                className="text-gray-400 hover:text-black transition-colors"
+              >
+                <X size={16} />
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Filters */}
