@@ -158,7 +158,7 @@ export default function ProductDetail() {
                     ) : (
                       <>
                         {product.year === 2026 && (
-                          <span className="bg-black text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
+                          <span className="bg-amber-500 text-white text-xs font-semibold px-3 py-1.5 rounded-full shadow-lg flex items-center gap-1">
                             <Award size={12} />
                             New {product.year}
                           </span>
