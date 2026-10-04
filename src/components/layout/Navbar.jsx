@@ -1,6 +1,6 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom';
 import { useState } from 'react';
-import { ShoppingBag, Search, User, Menu, X } from 'lucide-react';
+import { ShoppingBag, Search, Menu, X } from 'lucide-react';
 import { useCart } from '../../context/CartContext';
 
 const navItems = [
@@ -86,9 +86,6 @@ export default function Navbar() {
               </button>
             )}
 
-            <button className="nav-icon">
-              <User size={20} />
-            </button>
             <Link to="/cart" className="nav-icon">
               <ShoppingBag size={20} />
               {cart.totalItems > 0 && (
