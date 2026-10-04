@@ -123,12 +123,12 @@ export default function Home() {
                     {/* Badges */}
                     <div className="absolute top-3 left-3 flex flex-col gap-2">
                       {item.isSold && (
-                        <span className="bg-red-600 text-white text-xs font-semibold px-2 py-1 rounded-full">
+                        <span className="bg-red-600 text-white text-base font-semibold px-3 py-1.5 rounded-full">
                           Sold
                         </span>
                       )}
                       {item.year === 2026 && !item.isSold && (
-                        <span className="bg-black text-white text-xs font-semibold px-2 py-1 rounded-full">
+                        <span className="bg-amber-500 text-white text-base font-semibold px-3 py-1.5 rounded-full">
                           New
                         </span>
                       )}
