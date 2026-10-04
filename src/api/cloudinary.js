@@ -121,7 +121,27 @@ export const IMAGES = [
     "medium": "Acrylic on Canvas",
     "isSold": false,
     },
-
+  {
+    "public_id": "🚶 A Walk Among the Trees – Acrylic Painting 🚶",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109353/CoupleOnWalk_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109353/CoupleOnWalk_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109353/CoupleOnWalk_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109353/CoupleOnWalk_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109353/CoupleOnWalk_Display3.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791109354/CoupleOnWalk_Display4.jpg",
+     ],
+    "title": "🚶 A Walk Among the Trees – Acrylic Painting 🚶",
+    "category": "Landscape Paintings",
+    "price": 9000,
+    "originalPrice": 15000,
+    "sku": "A0105",
+    "year": 2026,
+    "size": "24 x 32 inches",
+    "description": "A quiet, atmospheric hand painted acrylic of two figures walking together down a dappled forest path, surrounded by tall trees and sunlit foliage. Loose, expressive brushwork captures the gentle rhythm of a shared walk-through nature. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: sun-dappled leaves, tall tree silhouettes & a warm, inviting forest path. ✅ Perfect for living rooms, bedrooms, hallways & nature-inspired interiors. A quiet walk, together. 🌳💚.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
       {
     "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099591/Krishna_Round_Display1.jpg",
