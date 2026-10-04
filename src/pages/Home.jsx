@@ -77,6 +77,26 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Custom Requests */}
+      <section className="w-full py-16 px-4 bg-gray-50 border-y border-gray-200">
+        <div className="w-full max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-4xl font-['Poppins'] font-bold text-black mb-4">
+            Customized Request
+          </h2>
+          <p className="text-gray-700 text-lg leading-relaxed mb-8 max-w-2xl mx-auto">
+            Don't see what you're looking for? We also take up custom artwork requests.
+            Connect with us and share your vision, and we'll bring it to life just for you.
+          </p>
+          <Link
+            to="/contact"
+            className="inline-flex items-center gap-2 px-8 py-4 bg-black text-white font-['Poppins'] font-medium rounded-xl hover:shadow-2xl hover:scale-105 transition-all"
+          >
+            GET IN TOUCH
+            <ArrowRight size={18} />
+          </Link>
+        </div>
+      </section>
+
       {/* Featured Artworks */}
       <section className="w-full py-16 px-4">
         <div className="w-full max-w-7xl mx-auto">
