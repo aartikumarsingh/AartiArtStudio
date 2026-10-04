@@ -3,13 +3,13 @@ export const IMAGES = [
   
        {
     "public_id": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg"
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg
-     ]
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg",
+     ],
     "title": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
     "price": 28000,
@@ -102,12 +102,13 @@ export const IMAGES = [
     },
         {
     "public_id": "✨ Krishna's Divine Radiance – Acrylic Painting ✨",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Divine_Krishna_Blue_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099270/Divine_Krishna_Blue_Display1.jpg",
     "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Divine_Krishna_Blue_Original.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696784/Divine_Krishna_Blue_Display1.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696522/Divine_Krishna_Blue_Display2.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696522/Divine_Krishna_Blue_Display3.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099270/Divine_Krishna_Blue_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099271/Divine_Krishna_Blue_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099272/Divine_Krishna_Blue_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099271/Divine_Krishna_Blue_Display3.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099271/Divine_Krishna_Blue_Display4.jpg",
      ],
     "title": "✨ Krishna's Divine Radiance – Acrylic Painting ✨",
     "category": "Spiritual Paintings",
@@ -123,9 +124,10 @@ export const IMAGES = [
 
       {
     "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099591/Krishna_Round_Display1.jpg",
     "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
+      "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099591/Krishna_Round_Display1.jpg", 
+      "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Orginal.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531437/Krishna_Round_Display.jpg",
      ],
     "title": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
@@ -142,10 +144,10 @@ export const IMAGES = [
     
         {
     "public_id": "🍺 Cheers in Colour – Acrylic Painting 🍺",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Beer_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Beer_Display2.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Beer_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Beer_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Beer_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Beer_Display1.jpg",
      ],
     "title": "🍺 Cheers in Colour – Acrylic Painting 🍺",
@@ -161,10 +163,10 @@ export const IMAGES = [
     },
         {
     "public_id": "☕ The Perfect Dip – Acrylic Painting ☕",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Biscuit_Dip_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Biscuit_Dip_Display2.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Biscuit_Dip_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Biscuit_Dip_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696526/Biscuit_Dip_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Biscuit_Dip_Display1.jpg",
      ],
     "title": "☕ The Perfect Dip – Acrylic Painting ☕",
@@ -180,10 +182,10 @@ export const IMAGES = [
     },
         {
     "public_id": "🌿 Fresh & Fizzy – Acrylic Painting 🌿",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696522/Mojito_Display2.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696522/Mojito_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790701979/Mojito_Display1.jpg",
      ],
     "title": "🌿 Fresh & Fizzy – Acrylic Painting 🌿",
@@ -199,10 +201,10 @@ export const IMAGES = [
     },
         {
     "public_id": "🌿 Mojito Overflow – Acrylic Painting 🌿",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Gin_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696523/Mojito_Gin_Display2.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Gin_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696523/Mojito_Gin_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Mojito_Gin_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696522/Mojito_Gin_Display1.jpg",
      ],
     "title": "🌿 Mojito Overflow – Acrylic Painting 🌿",
@@ -218,10 +220,10 @@ export const IMAGES = [
     },
         {
     "public_id": "🫐 Stack of Sunshine – Acrylic Painting 🫐",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Pancake_Original.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Pancake_Display2.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Pancake_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Pancake_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696525/Pancake_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790696524/Pancake_Display1.jpg",
      ],
     "title": "🫐 Stack of Sunshine – Acrylic Painting 🫐",
@@ -416,6 +418,7 @@ export const IMAGES = [
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790961223/WishperOfFreedom_Display1.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790961225/WishperOfFreedom_Original.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790961224/WishperOfFreedom_Display4.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790961228/WishperOfFreedom_Display2.jpg",
        "https://res.cloudinary.com/eez1bs5e/image/upload/v1790961228/WishperOfFreedom_Display3.jpg",
      ],
     "title": "🕊️ Whispers of Freedom – Acrylic Painting 🕊️",
