@@ -17,7 +17,7 @@ export const IMAGES = [
     "sku": "A0104",
     "year": 2026,
     "size": "30 x 36 inches",
-    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing — jewellery, drapery & peacock crown. ✅ Perfect for pooja rooms, living rooms & festive gifting. <br> Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
+    "description": "A vibrant hand painted acrylic capturing Lord Krishna in graceful motion, flute in hand, adorned in flowing robes of emerald, saffron and gold, crowned by a resplendent peacock-feather halo. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing — jewellery, drapery & peacock crown. ✅ Perfect for pooja rooms, living rooms & festive gifting. Bring home the divine rhythm of Krishna's flute. 🪈🙏.",
     "medium": "Acrylic on Streched Canvas",
     "isSold": false
     },
