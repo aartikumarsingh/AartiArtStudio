@@ -3,13 +3,13 @@ export const IMAGES = [
   
        {
     "public_id": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jp
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg
-     
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg",
+     ],
     "title": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
     "price": 28000,
