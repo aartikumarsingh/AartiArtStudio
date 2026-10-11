@@ -3,13 +3,13 @@ export const IMAGES = [
   
        {
     "public_id": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
-    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg
       "images": [
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg",
-       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg",
-     ],
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790854215/Shreeji_with_Flute_Display5.jp
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Original.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531439/Shreeji_with_Flute_Display2.jpg
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1790531438/Shreeji_with_Flute_Display.jpg
+     
     "title": "🦚 Divine Melody – Lord Krishna Acrylic Painting 🦚",
     "category": "Spiritual Paintings",
     "price": 28000,
@@ -81,6 +81,28 @@ export const IMAGES = [
     "medium": "Acrylic on Canvas",
     "isSold": true
     },
+
+
+    {
+    "public_id": "🪷 Buddha in Bloom – Acrylic Painting 🪷",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791698802/Divine_Buddha_Display1.jpg",
+    "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791698802/Divine_Buddha_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791698802/Divine_Buddha_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791705971/Divine_Buddha_Display2.jpg",
+     ],
+    "title": "🪷 Buddha in Bloom – Acrylic Painting 🪷",
+    "category": "Spiritual Paintings",
+    "price": 9999,
+    "originalPrice": 15000,
+    "sku": "A0005",
+    "year": 2024,
+    "size": "20 x 34 inches",
+    "description": "A serene hand painted acrylic of Lord Buddha in quiet meditation, his gold-textured curls and softly lowered gaze radiating peace. Pink lotuses, a star-shaped blossom and a delicate blue bird surround him against a vivid backdrop of red, green and gold, balancing stillness with joyful colour. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: gold textured curls, hand painted lotuses, a graceful blue bird & flowing multicoloured robes. ✅ Perfect for meditation spaces, living rooms, yoga studios & mindful gifting. Let calm and compassion fill your space. 🕊️🙏.",
+    "medium": "Acrylic on Canvas",
+    "isSold": true
+    },
+
         {
     "public_id": "🦚🐄 Krishna & His Divine Herd – Acrylic Painting 🐄🦚",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790852987/KrishanjiWithHerds_Display2.jpg",
@@ -142,6 +164,28 @@ export const IMAGES = [
     "medium": "Acrylic on Canvas",
     "isSold": false,
     },
+
+     {
+    "public_id": "🐄 Kamadhenu's Blessing – Pichwai Acrylic Painting 🐄",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/Cow_Pichwai_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/Cow_Pichwai_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/Cow_Pichwai_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/Cow_Pichwai_Display3.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/Cow_Pichwai_Display2.jpg",
+     ],
+    "title": "🐄 Kamadhenu's Blessing – Pichwai Acrylic Painting 🐄",
+    "category": "Spiritual Paintings",
+    "price": 5000,
+    "originalPrice": 6000,
+    "sku": "A0106",
+    "year": 2026,
+    "size": "16.5 x 17 inches",
+    "description": "A graceful hand painted acrylic in the Pichwai tradition, showing a gently adorned cow nursing her calf amid blooming pink lotuses and a blue pond. Rich golden tones, delicate floral motifs and tender detail celebrate motherhood, abundance and the sacred bond of the Gopal's herd. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: peacock feather headgear, ornate jewelled collar, hand painted lotuses & golden floral motifs. ✅ Perfect for pooja rooms, living rooms, entryways & festive or housewarming gifts. May abundance and blessings flow into your home. 🪷🙏.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
+
       {
     "public_id": "🦚 Little Krishna, Bathed in Gold – Acrylic Painting 🦚",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791099591/Krishna_Round_Display1.jpg",
@@ -257,7 +301,94 @@ export const IMAGES = [
     "medium": "Acrylic on Streched Canvas",
     "isSold": false,
     },
-  {
+
+     {
+    "public_id": "🗼 Paris in Bloom – Acrylic Painting 🗼",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/EiffelTower_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/EiffelTower_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656102/EiffelTower_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656101/EiffelTower_Display3.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656101/EiffelTower_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/EiffelTower_Display4.jpg",
+     ],
+    "title": "🗼 Paris in Bloom – Acrylic Painting 🗼",
+    "category": "Landscape Paintings",
+    "price": 4600,
+    "originalPrice": 6000,
+    "sku": "A0107",
+    "year": 2026,
+    "size": "20 x 24 inches",
+    "description": "A vibrant hand painted acrylic of the Eiffel Tower rising in warm golden tones against a lively blue sky, framed by bold red blossoms in the foreground. Playful, expressive brushwork and a fearless palette give this iconic landmark a fresh, cheerful energy. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: lattice ironwork, fluffy textured clouds, vivid red flowers & a sunlit path. ✅ Perfect for living rooms, bedrooms, offices, travel-themed spaces & statement wall art. Paris, painted with a splash of joy. 🌸.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
+
+     {
+    "public_id": "🌼 Daisy in Full Bloom – Acrylic Painting 🌼",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/Daisy_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/Daisy_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656105/Daisy_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/Daisy_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656104/Daisy_Display3.jpg",
+     ],
+    "title": "🌼 Daisy in Full Bloom – Acrylic Painting 🌼",
+    "category": "Still Paintings",
+    "price": 2300,
+    "originalPrice": 4500,
+    "sku": "A0108",
+    "year": 2026,
+    "size": "10 x 10 inches",
+    "description": "A fresh, vibrant hand painted acrylic close-up of a white daisy, its petals tinted with cool blue shadows and outlined in soft pink, surrounding a richly textured orange centre. Set against lush green leaves and a bold pink backdrop, the bold brushwork gives this simple flower real energy and joy. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: layered petal highlights, textured flower centre & a vivid pink-green contrast. ✅ Perfect for kitchens, bedrooms, living rooms, entryways & cheerful modern interiors. A little burst of sunshine for your walls. 🌸💚.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
+
+     {
+    "public_id": "🌺 Poppy in Red – Acrylic Painting 🌺",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656102/RedPoppy_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656102/RedPoppy_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656101/RedPoppy_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/RedPoppy_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/RedPoppy_Display3.jpg",
+     ],
+    "title": "🌺 Poppy in Red – Acrylic Painting 🌺",
+    "category": "Still Paintings",
+    "price": 2300,
+    "originalPrice": 4500,
+    "sku": "A0109",
+    "year": 2026,
+    "size": "10 x 12 inches",
+    "description": "A bold hand painted acrylic close-up of a red poppy, its ruffled petals sweeping around a luminous green centre. Set against shades of turquoise and hot pink, the confident brushwork and fiery colour give this flower real drama and presence. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: layered petal folds, a glowing green centre & a vivid red-teal contrast. ✅ Perfect for living rooms, dining spaces, bedrooms, entryways & bold modern interiors. A little fire for your walls. ❤️🎨.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
+
+ 
+     {
+    "public_id": "🍒 Cherry Pair – Acrylic Painting 🍒",
+    "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656101/Cherry_Display1.jpg",
+     "images": [
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656101/Cherry_Display1.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656102/Cherry_Original.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656102/Cherry_Display2.jpg",
+       "https://res.cloudinary.com/eez1bs5e/image/upload/v1791656103/Cherry_Display3.jpg",
+     ],
+    "title": "🍒 Cherry Pair – Acrylic Painting 🍒",
+    "category": "Still Paintings",
+    "price": 2300,
+    "originalPrice": 4500,
+    "sku": "A0110",
+    "year": 2026,
+    "size": "10 x 10 inches",
+    "description": "A juicy hand painted acrylic of two glossy red cherries hanging from slender green stems, with a single leaf curling beside them. Bold highlights and deep burgundy shadows pop against a cool sky-blue backdrop, turning a simple fruit into a bright, graphic study of colour. ✅ 100% Hand painted Acrylic on Canvas. ✅ Rich detailing: glossy cherry highlights, deep burgundy shading & a fresh red-blue contrast. ✅ Perfect for kitchens, dining spaces, cafes & cheerful modern interiors. Sweet, shiny and always in season. 🍒💙.",
+    "medium": "Acrylic on Canvas",
+    "isSold": false,
+    },
+      
+    {
     "public_id": "🍓 The Strawberry – Acrylic Painting 🍓",
     "url": "https://res.cloudinary.com/eez1bs5e/image/upload/v1790790326/Strawberry_Display1.jpg",
     "images": [
